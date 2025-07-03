@@ -1,0 +1,38 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "appointments",
+    "path": "/appointments",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/appointments.vue",
+    "chunkName": "pages/appointments"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/contact.vue",
+    "chunkName": "pages/contact"
+  },
+  {
+    "name": "services",
+    "path": "/services",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/services.vue",
+    "chunkName": "pages/services"
+  },
+  {
+    "name": "team",
+    "path": "/team",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/team.vue",
+    "chunkName": "pages/team"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]

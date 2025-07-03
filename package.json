@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-appointment-app",
+  "version": "1.0.0",
+  "description": "A Nuxt.js application for managing appointments and displaying Google reviews.",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0"
+  }
+}
