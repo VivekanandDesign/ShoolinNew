@@ -3,54 +3,63 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_0f6827b3"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_4f0c4974"
   },
   {
     "name": "services",
     "path": "/services",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/services.vue",
-    "chunkName": "pages/services"
+    "chunkName": "pages/services",
+    "_name": "_03b7e128"
   },
   {
     "name": "services-new",
     "path": "/services-new",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/services-new.vue",
-    "chunkName": "pages/services-new"
+    "chunkName": "pages/services-new",
+    "_name": "_e872540a"
   },
   {
     "name": "services-old",
     "path": "/services-old",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/services-old.vue",
-    "chunkName": "pages/services-old"
+    "chunkName": "pages/services-old",
+    "_name": "_68d981fc"
   },
   {
     "name": "team",
     "path": "/team",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/team.vue",
-    "chunkName": "pages/team"
+    "chunkName": "pages/team",
+    "_name": "_0b3736b2"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2f200278"
   },
   {
     "name": "consultation-id",
     "path": "/consultation/:id?",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/consultation/_id.vue",
-    "chunkName": "pages/consultation/_id"
+    "chunkName": "pages/consultation/_id",
+    "_name": "_44774e04"
   },
   {
     "name": "profile-id",
     "path": "/profile/:id?",
     "component": "/Users/vivekanandchoudhari/Desktop/NewShoolin/Shoolin/Shoolin/nuxt-appointment-app/pages/profile/_id.vue",
-    "chunkName": "pages/profile/_id"
+    "chunkName": "pages/profile/_id",
+    "_name": "_421e3b0c"
   }
 ]
