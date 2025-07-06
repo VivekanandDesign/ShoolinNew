@@ -1521,6 +1521,17 @@ export default {
 }
 
 /* Responsive Design */
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-section {
+    height: 90vh;
+  }
+  
+  .team-grid {
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-section {
     height: 80vh;

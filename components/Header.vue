@@ -155,6 +155,7 @@ export default {
   color: #ffffff !important;
 }
 
+/* Desktop: Hide mobile menu toggle by default */
 .mobile-menu-toggle {
   display: none;
   flex-direction: column;
@@ -201,7 +202,8 @@ export default {
   backdrop-filter: blur(2px);
 }
 
-@media (max-width: 768px) {
+/* Tablet and Mobile Navigation - Starting from 1024px and below */
+@media (max-width: 1024px) {
   .header-content {
     flex-wrap: nowrap;
   }
@@ -210,14 +212,15 @@ export default {
     position: fixed !important;
     top: 0;
     right: -100%;
-    width: 280px;
+    width: 320px;
     height: 100vh;
     background-color: #ffffff !important;
     border-left: 2px solid #000000;
     transition: right 0.3s ease;
-    z-index: 1000;
+    z-index: 1001 !important;
     padding-top: 5rem;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    display: block !important;
   }
   
   .main-nav.mobile-nav-open {
@@ -268,18 +271,25 @@ export default {
   }
   
   .logo h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Mobile Phones - 768px and below */
+@media (max-width: 768px) {
+  .main-nav {
+    width: 280px;
+  }
+  
+  .logo h1 {
     font-size: 1.3rem;
   }
 }
 
+/* Small Mobile Phones - 480px and below */
 @media (max-width: 480px) {
-  .logo h1 {
-    font-size: 1.1rem;
-  }
-  
   .main-nav {
     width: 100%;
-    right: -100%;
   }
   
   .main-nav a {
@@ -290,8 +300,13 @@ export default {
   .main-nav a:hover {
     padding-left: 2rem;
   }
+  
+  .logo h1 {
+    font-size: 1.1rem;
+  }
 }
 
+/* Extra Small Mobile - 320px and below */
 @media (max-width: 320px) {
   .container {
     padding: 0 0.5rem;
@@ -303,40 +318,11 @@ export default {
   
   .mobile-menu-toggle {
     padding: 0.25rem;
-    display: flex !important;
-    background: none !important;
-    border: none !important;
   }
   
   .mobile-menu-toggle span {
     width: 20px;
     height: 2px;
-    background-color: #000000 !important;
-  }
-}
-
-/* Ensure mobile menu works across all mobile breakpoints */
-@media (max-width: 1024px) {
-  .mobile-menu-toggle {
-    display: flex !important;
-    background: none !important;
-    border: none !important;
-  }
-  
-  .main-nav {
-    display: none;
-  }
-  
-  .main-nav.mobile-nav-open {
-    display: block !important;
-    position: fixed !important;
-    top: 0;
-    right: 0 !important;
-    width: 280px;
-    height: 100vh;
-    background-color: #ffffff !important;
-    z-index: 1001 !important;
-    padding-top: 5rem;
   }
 }
 </style>

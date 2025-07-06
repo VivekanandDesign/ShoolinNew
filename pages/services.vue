@@ -863,6 +863,19 @@ export default {
     gap: 2rem;
     max-width: 900px;
   }
+  
+  .hero-section {
+    height: 90vh;
+  }
+}
+
+/* Tablet Portrait */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
