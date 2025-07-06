@@ -102,10 +102,132 @@ export default {
 
 <style scoped>
 .main-footer {
-  background-color: #000000;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 25%, #000000 50%, #2a2a2a 75%, #000000 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   margin-top: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure all text in footer is white */
+.main-footer * {
+  color: #ffffff !important;
+}
+
+/* Specific overrides for elements that should maintain their colors */
+.google-icon {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.footer-cta-btn {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.main-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 
+    800px 800px, 
+    800px 800px, 
+    600px 600px,
+    50px 50px, 
+    50px 50px;
+  background-position: 
+    0% 0%, 
+    100% 100%, 
+    50% 50%,
+    0% 0%, 
+    0% 0%;
+  opacity: 0.6;
+  animation: patternMove 20s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.main-footer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    rgba(255, 255, 255, 0.3) 25%, 
+    rgba(255, 255, 255, 0.6) 50%, 
+    rgba(255, 255, 255, 0.3) 75%, 
+    transparent 100%
+  );
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes patternMove {
+  0%, 100% {
+    background-position: 
+      0% 0%, 
+      100% 100%, 
+      50% 50%,
+      0% 0%, 
+      0% 0%;
+  }
+  25% {
+    background-position: 
+      25% 25%, 
+      75% 75%, 
+      25% 75%,
+      10px 10px, 
+      -10px 10px;
+  }
+  50% {
+    background-position: 
+      50% 50%, 
+      50% 50%, 
+      75% 25%,
+      20px 20px, 
+      -20px 20px;
+  }
+  75% {
+    background-position: 
+      75% 25%, 
+      25% 75%, 
+      25% 75%,
+      30px 10px, 
+      -30px 30px;
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
 }
 
 .container {
@@ -138,7 +260,7 @@ export default {
 }
 
 .footer-section p {
-  color: #cccccc;
+  color: #ffffff !important;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -154,17 +276,17 @@ export default {
 }
 
 .footer-links a {
-  color: #cccccc;
+  color: #ffffff !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: #ffffff;
+  color: #cccccc !important;
 }
 
 .footer-links li:not(:has(a)) {
-  color: #cccccc;
+  color: #ffffff !important;
   font-size: 0.9rem;
 }
 
@@ -176,13 +298,13 @@ export default {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: #cccccc;
+  color: #ffffff !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .social-link:hover {
-  color: #ffffff;
+  color: #cccccc !important;
 }
 
 .google-icon {
@@ -224,6 +346,7 @@ export default {
 
 .footer-cta-btn:hover {
   background-color: #cccccc;
+  color: #000000;
   transform: translateY(-2px);
 }
 
@@ -241,7 +364,7 @@ export default {
 }
 
 .copyright {
-  color: #cccccc;
+  color: #ffffff !important;
   margin: 0;
   font-size: 0.9rem;
 }
@@ -251,7 +374,7 @@ export default {
 }
 
 .legal-notice {
-  color: #cccccc;
+  color: #ffffff !important;
   font-size: 0.8rem;
   font-style: italic;
 }
@@ -263,7 +386,7 @@ export default {
 }
 
 .footer-disclaimer p {
-  color: #cccccc;
+  color: #ffffff !important;
   font-size: 0.8rem;
   line-height: 1.5;
   margin: 0;

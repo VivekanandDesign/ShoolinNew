@@ -13,7 +13,6 @@
             <li><nuxt-link to="/about">About</nuxt-link></li>
             <li><nuxt-link to="/services">Services</nuxt-link></li>
             <li><nuxt-link to="/team">Team</nuxt-link></li>
-            <li><nuxt-link to="/appointments">Appointments</nuxt-link></li>
             <li><nuxt-link to="/contact">Contact</nuxt-link></li>
           </ul>
         </nav>
@@ -35,41 +34,48 @@ export default {
 
 <style scoped>
 .main-header {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   border-bottom: 2px solid #000000;
   padding: 1rem 0;
   font-family: 'Poppins', sans-serif;
   position: sticky;
   top: 0;
   z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  background-color: transparent;
 }
 
 .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
 .logo h1 {
-  color: #000000;
+  color: #000000 !important;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
+  text-shadow: none;
 }
 
 .logo-link {
   text-decoration: none;
-  color: #000000;
+  color: #000000 !important;
 }
 
 .logo-link:hover {
   text-decoration: none;
+  color: #000000 !important;
 }
 
 .main-nav ul {
@@ -83,7 +89,7 @@ export default {
 
 .main-nav a {
   text-decoration: none;
-  color: #000000;
+  color: #000000 !important;
   font-weight: 500;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -92,13 +98,13 @@ export default {
 }
 
 .main-nav a:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .main-nav a.nuxt-link-active {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .mobile-menu-toggle {
@@ -111,7 +117,7 @@ export default {
 .mobile-menu-toggle span {
   width: 25px;
   height: 3px;
-  background-color: #000000;
+  background-color: #000000 !important;
   transition: all 0.3s ease;
 }
 

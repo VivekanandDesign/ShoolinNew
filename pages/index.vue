@@ -26,13 +26,29 @@
             for your business and personal legal needs.
           </p>
           <div class="hero-buttons">
-            <nuxt-link to="/services" class="btn btn-primary">
+            <nuxt-link 
+              to="/services" 
+              class="btn btn-primary btn-cta"
+              role="button"
+              aria-label="View our comprehensive legal services"
+              title="Explore our legal services"
+            >
               <span>Our Services</span>
               <div class="btn-animation"></div>
+              <span class="btn-arrow">→</span>
+              <span class="sr-only">Navigate to services page</span>
             </nuxt-link>
-            <nuxt-link to="/contact" class="btn btn-secondary">
+            <nuxt-link 
+              to="/contact" 
+              class="btn btn-secondary btn-cta"
+              role="button"
+              aria-label="Schedule a legal consultation"
+              title="Get professional legal consultation"
+            >
               <span>Get Consultation</span>
               <div class="btn-animation"></div>
+              <span class="btn-arrow">→</span>
+              <span class="sr-only">Navigate to contact page</span>
             </nuxt-link>
           </div>
         </div>
@@ -51,8 +67,8 @@
           </div>
           <div class="floating-elements">
             <div class="element element-1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM17 13H13V17H11V13H7V11H11V7H13V11H17V13Z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="white">
+                <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19ZM7 10H12V12H7V10ZM7 13H17V15H7V13ZM7 16H17V18H7V16ZM7 6H17V8H7V6Z"/>
               </svg>
             </div>
             <div class="element element-2">
@@ -92,135 +108,50 @@
       
       <div class="container">
         <div class="section-header">
-          <div class="section-badge">Excellence & Innovation</div>
+          <div class="section-badge">
+            <span class="badge-icon">✦</span>
+            <span class="badge-shine"></span>
+          </div>
           <h2 class="section-title">
             <span class="title-decoration">Why Choose</span>
             <span class="title-highlight">Shoolin Consultancy</span>
+            <span class="title-accent">Legal Excellence Redefined</span>
           </h2>
           <p class="section-subtitle">
             Excellence, integrity, and innovation define our approach to legal consultancy.
-            We deliver exceptional results through expertise and dedication.
+            We deliver exceptional results through expertise, dedication, and cutting-edge solutions.
           </p>
           <div class="title-decoration-line">
             <div class="decoration-line"></div>
-            <div class="decoration-dot"></div>
+            <div class="decoration-diamond">♦</div>
             <div class="decoration-line"></div>
           </div>
         </div>
         
         <div class="features-grid">
+          <!-- Simple Feature Cards -->
           <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="feature-card-inner">
-              <div class="card-number">01</div>
-              <div class="feature-icon-wrapper">
-                <div class="feature-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-                  </svg>
-                </div>
-                <div class="icon-background expert-guidance-bg"></div>
-                <div class="icon-particles">
-                  <div class="particle particle-1"></div>
-                  <div class="particle particle-2"></div>
-                  <div class="particle particle-3"></div>
-                </div>
-                <div class="icon-ring-outer"></div>
-                <div class="icon-ring-inner"></div>
-              </div>
-              <div class="feature-content">
-                <h3>Expert Guidance</h3>
-                <p>Comprehensive legal expertise across multiple practice areas with professional excellence and decades of combined experience.</p>
-                <ul class="feature-benefits">
-                  <li><span class="benefit-icon">✓</span> Multi-disciplinary expertise</li>
-                  <li><span class="benefit-icon">✓</span> Proven track record</li>
-                  <li><span class="benefit-icon">✓</span> Strategic solutions</li>
-                </ul>
-                <div class="feature-stats-mini">
-                  <div class="mini-stat" data-count="500" data-suffix="+">
-                    <span class="mini-number">0</span>
-                    <span class="mini-label">Cases</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-glow"></div>
-              <div class="card-border-animation"></div>
-            </div>
+            <div class="feature-icon">★</div>
+            <h3>Expert Guidance</h3>
+            <p>Professional legal expertise with proven results across multiple practice areas.</p>
           </div>
           
-          <div class="feature-card featured-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="feature-card-inner">
-              <div class="card-number">02</div>
-              <div class="feature-icon-wrapper">
-                <div class="feature-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M15.5 12c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L21 23.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 00-2.5 2.5 2.5 2.5 0 002.5 2.5 2.5 2.5 0 002.5-2.5 2.5 2.5 0 00-2.5-2.5m-3-4C12.5 10 12.5 8 9 8c0 0-1.47 0-2.26.91C6.6 9.03 2 15.5 2 15.5l7.87 7.88S16 19.3 16.62 18.74c.59-.54 1.38-2.26 1.38-2.26.22-4.62-2-6.48-5.5-6.48z"/>
-                  </svg>
-                </div>
-                <div class="icon-background trusted-partnership-bg"></div>
-                <div class="icon-particles">
-                  <div class="particle particle-1"></div>
-                  <div class="particle particle-2"></div>
-                  <div class="particle particle-3"></div>
-                </div>
-                <div class="icon-ring-outer"></div>
-                <div class="icon-ring-inner"></div>
-              </div>
-              <div class="feature-content">
-                <h3>Trusted Partnership</h3>
-                <p>Building lasting relationships based on trust, transparency, and exceptional service delivery that exceeds expectations.</p>
-                <ul class="feature-benefits">
-                  <li><span class="benefit-icon">✓</span> Long-term relationships</li>
-                  <li><span class="benefit-icon">✓</span> Transparent communication</li>
-                  <li><span class="benefit-icon">✓</span> Client-first approach</li>
-                </ul>
-                <div class="feature-stats-mini">
-                  <div class="mini-stat" data-count="98" data-suffix="%">
-                    <span class="mini-number">0</span>
-                    <span class="mini-label">Success</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-glow"></div>
-              <div class="card-border-animation"></div>
-            </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-icon">♦</div>
+            <h3>Trusted Partnership</h3>
+            <p>Building lasting relationships based on trust, transparency, and exceptional service.</p>
           </div>
           
           <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="feature-card-inner">
-              <div class="card-number">03</div>
-              <div class="feature-icon-wrapper">
-                <div class="feature-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6zm10-9h-4v1h4v-1zm0 3H8v1h8v-1zm0 3H8v1h8v-1z"/>
-                  </svg>
-                </div>
-                <div class="icon-background regulatory-compliance-bg"></div>
-                <div class="icon-particles">
-                  <div class="particle particle-1"></div>
-                  <div class="particle particle-2"></div>
-                  <div class="particle particle-3"></div>
-                </div>
-                <div class="icon-ring-outer"></div>
-                <div class="icon-ring-inner"></div>
-              </div>
-              <div class="feature-content">
-                <h3>Regulatory Compliance</h3>
-                <p>Ensuring full compliance with Bar Council of India regulations and maintaining the highest ethical standards in practice.</p>
-                <ul class="feature-benefits">
-                  <li><span class="benefit-icon">✓</span> Full BCI compliance</li>
-                  <li><span class="benefit-icon">✓</span> Ethical practice standards</li>
-                  <li><span class="benefit-icon">✓</span> Professional integrity</li>
-                </ul>
-                <div class="feature-stats-mini">
-                  <div class="mini-stat" data-count="24/7" data-suffix="">
-                    <span class="mini-number">0</span>
-                    <span class="mini-label">Support</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-glow"></div>
-              <div class="card-border-animation"></div>
-            </div>
+            <div class="feature-icon">✓</div>
+            <h3>Full Compliance</h3>
+            <p>Complete adherence to Bar Council regulations and highest ethical standards.</p>
+          </div>
+
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-icon">⚡</div>
+            <h3>Innovation Focus</h3>
+            <p>Leveraging modern strategies and technology for efficient, effective solutions.</p>
           </div>
         </div>
         
@@ -276,172 +207,30 @@
         </div>
         
         <div class="features-cta">
-          <nuxt-link to="/about" class="btn btn-primary btn-cta">
+          <nuxt-link 
+            to="/about" 
+            class="btn btn-primary btn-cta"
+            role="button"
+            aria-label="Discover our legal excellence and expertise"
+            title="Learn about our professional approach"
+          >
             <span>Discover Our Excellence</span>
             <div class="btn-animation"></div>
-            <div class="btn-arrow">→</div>
+            <span class="btn-arrow">→</span>
+            <span class="sr-only">Navigate to about page</span>
           </nuxt-link>
-          <nuxt-link to="/contact" class="btn btn-secondary btn-cta">
+          <nuxt-link 
+            to="/contact" 
+            class="btn btn-secondary btn-cta"
+            role="button"
+            aria-label="Start your legal journey with us"
+            title="Begin your consultation process"
+          >
             <span>Start Your Journey</span>
             <div class="btn-animation"></div>
-            <div class="btn-arrow">→</div>
+            <span class="btn-arrow">→</span>
+            <span class="sr-only">Navigate to contact page</span>
           </nuxt-link>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Overview Section -->
-    <section class="services-overview">
-      <div class="services-background">
-        <div class="services-pattern"></div>
-        <div class="services-shapes">
-          <div class="shape shape-1"></div>
-          <div class="shape shape-2"></div>
-          <div class="shape shape-3"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="section-header">
-          <div class="section-badge">Expertise & Excellence</div>
-          <h2 class="section-title">
-            <span class="title-decoration">Comprehensive</span>
-            <span class="title-highlight">Legal Solutions</span>
-          </h2>
-          <p class="section-subtitle">
-            Professional legal services tailored to meet your specific needs with
-            the highest standards of integrity and excellence.
-          </p>
-        </div>
-        
-        <div class="services-content">
-          <div class="services-text">
-            <p class="services-intro">
-              At Shoolin Consultancy, we provide professional legal services across various practice areas. 
-              Our experienced team is committed to delivering exceptional results while maintaining the 
-              highest standards of professional ethics.
-            </p>
-            
-            <div class="services-grid">
-              <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2zm0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1z" />
-                  </svg>
-                </div>
-                <h3>Corporate Law & Compliance</h3>
-                <p>Expert guidance on corporate structuring, regulatory compliance, and governance frameworks.</p>
-                <div class="service-hover-info">
-                  <ul>
-                    <li>Company formations</li>
-                    <li>Regulatory frameworks</li>
-                    <li>Governance structures</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
-                  </svg>
-                </div>
-                <h3>Business Advisory Services</h3>
-                <p>Strategic legal counsel for businesses at all stages, from startups to established enterprises.</p>
-                <div class="service-hover-info">
-                  <ul>
-                    <li>Contract negotiations</li>
-                    <li>Business strategy</li>
-                    <li>Risk management</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div class="service-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6zm10-9h-4v1h4v-1zm0 3H8v1h8v-1zm0 3H8v1h8v-1z" />
-                  </svg>
-                </div>
-                <h3>Legal Documentation</h3>
-                <p>Precise and comprehensive legal documentation services tailored to your specific requirements.</p>
-                <div class="service-hover-info">
-                  <ul>
-                    <li>Contract drafting</li>
-                    <li>Agreement reviews</li>
-                    <li>Legal audits</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <div class="service-card" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" />
-                  </svg>
-                </div>
-                <h3>Litigation Support</h3>
-                <p>Expert representation and strategic advice for all your litigation and dispute resolution needs.</p>
-                <div class="service-hover-info">
-                  <ul>
-                    <li>Case preparation</li>
-                    <li>Arbitration</li>
-                    <li>Court representation</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            
-            <div class="services-action">
-              <nuxt-link to="/services" class="btn btn-outline btn-animated">
-                <span>View All Services</span>
-                <div class="btn-animation"></div>
-                <div class="btn-arrow">→</div>
-              </nuxt-link>
-            </div>
-          </div>
-          
-          <div class="services-visual">
-            <div class="service-highlights">
-              <div class="highlight-item" data-aos="fade-left" data-aos-delay="100">
-                <div class="highlight-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7v-5z" />
-                  </svg>
-                </div>
-                <span class="highlight-number">10+</span>
-                <span class="highlight-text">Years Experience</span>
-                <div class="highlight-progress">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-              
-              <div class="highlight-item" data-aos="fade-left" data-aos-delay="200">
-                <div class="highlight-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8-1.41-1.42z" />
-                  </svg>
-                </div>
-                <span class="highlight-number">100%</span>
-                <span class="highlight-text">Compliance</span>
-                <div class="highlight-progress">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-              
-              <div class="highlight-item" data-aos="fade-left" data-aos-delay="300">
-                <div class="highlight-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-.5-13H13v6l5.25 3.15-.75 1.23-6-3.6V7z" />
-                  </svg>
-                </div>
-                <span class="highlight-number">24/7</span>
-                <span class="highlight-text">Support</span>
-                <div class="highlight-progress">
-                  <div class="progress-bar"></div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -453,8 +242,30 @@
           <h2>Ready to Get Professional Legal Consultation?</h2>
           <p>Contact us today to discuss your legal requirements and how we can assist you.</p>
           <div class="cta-buttons">
-            <nuxt-link to="/contact" class="btn btn-primary">Contact Us</nuxt-link>
-            <nuxt-link to="/about" class="btn btn-secondary">Learn More</nuxt-link>
+            <nuxt-link 
+              to="/contact" 
+              class="btn btn-primary btn-cta"
+              role="button"
+              aria-label="Contact us for legal consultation"
+              title="Get in touch with our legal experts"
+            >
+              <span>Contact Us</span>
+              <div class="btn-animation"></div>
+              <span class="btn-arrow">→</span>
+              <span class="sr-only">Navigate to contact page</span>
+            </nuxt-link>
+            <nuxt-link 
+              to="/about" 
+              class="btn btn-secondary btn-cta"
+              role="button"
+              aria-label="Learn more about our legal services"
+              title="Discover our expertise and approach"
+            >
+              <span>Learn More</span>
+              <div class="btn-animation"></div>
+              <span class="btn-arrow">→</span>
+              <span class="sr-only">Navigate to about page</span>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -862,9 +673,35 @@ export default {
 
 .hero-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   flex-wrap: wrap;
   animation: fadeInUp 1s ease-out 0.8s both;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Ensure buttons are accessible on mobile */
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+    min-width: auto;
+    text-align: center;
+  }
+}
+
+/* For reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .hero-buttons {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 .hero-visual {
@@ -1029,26 +866,87 @@ export default {
   }
 }
 
-/* Button Styles */
+/* Enhanced Button Styles for Maximum Accessibility */
 .btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 2.75rem;
+  font-weight: 700;
   text-decoration: none;
-  border-radius: 8px;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 2px solid #000000;
-  font-size: 1rem;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 3px solid #000000;
+  font-size: 1.125rem;
   position: relative;
   overflow: hidden;
-  transform-style: preserve-3d;
-  perspective: 1000px;
+  color: inherit;
+  background-color: transparent;
+  min-height: 52px;
+  min-width: 200px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  outline-offset: 4px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  /* Enhanced contrast and spacing */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Improved text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Better touch targets */
+  touch-action: manipulation;
+  /* Prevent text selection */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Enhanced focus styles for superior accessibility */
+.btn:focus,
+.btn:focus-visible {
+  outline: 4px solid #0066ff;
+  outline-offset: 4px;
+  box-shadow: 
+    0 0 0 8px rgba(0, 102, 255, 0.25),
+    0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+  z-index: 10;
+}
+
+/* Enhanced keyboard navigation */
+.btn:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn {
+    border-width: 4px;
+    font-weight: 800;
+    box-shadow: none;
+  }
+  
+  .btn:focus {
+    outline-width: 5px;
+    outline-color: ButtonText;
+  }
+}
+
+/* Large text mode support */
+@media (prefers-reduced-data: reduce) {
+  .btn {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .btn span {
   position: relative;
   z-index: 2;
   transition: all 0.3s ease;
+  display: block;
+  font-weight: inherit;
 }
 
 .btn-animation {
@@ -1057,76 +955,348 @@ export default {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  transition: left 0.6s ease;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.4s ease;
   z-index: 1;
+  pointer-events: none;
 }
 
 .btn:hover .btn-animation {
   left: 100%;
 }
 
+/* Remove animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .btn-animation {
+    display: none;
+  }
+  
+  .btn:hover .btn-animation {
+    display: none;
+  }
+}
+
+/* Enhanced Primary Button - Maximum Contrast */
 .btn-primary {
   background-color: #000000;
   color: #ffffff;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 3px solid #000000;
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  /* Perfect contrast ratio: 21:1 (exceeds WCAG AAA) */
+  font-weight: 700;
+  position: relative;
 }
 
-.btn-primary:hover {
-  background-color: #333333;
-  transform: translateY(-5px) rotateX(5deg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  border-radius: 9px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-color: #1a1a1a;
+  transform: translateY(-3px);
+  box-shadow: 
+    0 12px 28px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
 }
 
 .btn-primary:active {
-  transform: translateY(-2px) rotateX(2deg);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn-secondary {
-  background-color: #ffffff;
-  color: #000000;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.btn-secondary:hover {
   background-color: #000000;
   color: #ffffff;
-  transform: translateY(-5px) rotateX(5deg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 
+    0 6px 16px rgba(0, 0, 0, 0.3),
+    inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.btn-secondary:active {
-  transform: translateY(-2px) rotateX(2deg);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+/* Enhanced focus state for primary button */
+.btn-primary:focus-visible {
+  outline-color: #66b3ff;
+  box-shadow: 
+    0 0 0 8px rgba(102, 179, 255, 0.3),
+    0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
+/* Enhanced CTA Button Styles */
+.btn-cta {
+  position: relative;
+  overflow: hidden;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  border-radius: 16px;
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.btn-arrow {
+  font-size: 1.3rem;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: inline-block;
+  font-weight: 900;
+}
+
+.btn:hover .btn-arrow {
+  transform: translateX(6px);
+}
+
+/* Enhanced animations */
+.btn-animation {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(255, 255, 255, 0.3), 
+    transparent);
+  transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 1;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.btn:hover .btn-animation {
+  left: 100%;
+}
+
+/* Outline button enhancement */
 .btn-outline {
   background-color: transparent;
   color: #000000;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 
+    0 6px 18px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 .btn-outline:hover {
   background-color: #000000;
   color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 
+    0 15px 30px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Enhanced Secondary Button - High Contrast */
+.btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  /* Perfect contrast ratio: 21:1 (exceeds WCAG AAA) */
+  font-weight: 700;
+  position: relative;
+}
+
+.btn-secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(0, 0, 0, 0.05) 50%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  border-radius: 9px;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #000000;
   transform: translateY(-3px);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 
+    0 12px 28px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.btn-secondary:hover::before {
+  opacity: 1;
+}
+
+.btn-secondary:active {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 
+    0 6px 16px rgba(0, 0, 0, 0.25),
+    inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced focus state for secondary button */
+.btn-secondary:focus-visible {
+  outline-color: #66b3ff;
+  box-shadow: 
+    0 0 0 8px rgba(102, 179, 255, 0.3),
+    0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* Comprehensive Accessibility & Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline,
+  .btn-cta {
+    transform: none !important;
+    transition: background-color 0.2s ease, 
+                color 0.2s ease, 
+                border-color 0.2s ease,
+                box-shadow 0.2s ease;
+  }
+  
+  .btn-animation,
+  .btn::before,
+  .btn-primary::before,
+  .btn-secondary::before {
+    display: none !important;
+  }
+  
+  .btn-arrow {
+    transition: none;
+  }
+  
+  .btn:hover .btn-arrow {
+    transform: none;
+  }
+}
+
+/* High contrast mode enhancements */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    background-color: ButtonText;
+    color: ButtonFace;
+    border-color: ButtonText;
+  }
+  
+  .btn-secondary {
+    background-color: ButtonFace;
+    color: ButtonText;
+    border-color: ButtonText;
+  }
+  
+  .btn:focus-visible {
+    outline-color: Highlight;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .btn-secondary {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .btn {
+    min-height: 56px;
+    min-width: 240px;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+  }
+  
+  .btn:hover {
+    transform: none;
+  }
+}
+
+/* Screen reader enhancements */
+.btn .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Loading state for buttons */
+.btn.loading {
+  pointer-events: none;
+  opacity: 0.7;
+  position: relative;
+}
+
+.btn.loading::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 /* Features Section */
+/* Features Section */
 .features-section {
-  padding: 5rem 2rem 8rem;
+  padding: 6rem 2rem 8rem;
   margin-top: -4rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 25%, #ffffff 50%, #f5f5f5 75%, #ffffff 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 25%, #ffffff 50%, #f8f8f8 75%, #ffffff 100%);
   background-image: 
-    radial-gradient(circle at 10% 20%, rgba(240, 240, 240, 0.8) 0%, transparent 40%),
-    radial-gradient(circle at 90% 80%, rgba(240, 240, 240, 0.8) 0%, transparent 40%),
-    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 0%, transparent 60%);
+    radial-gradient(circle at 15% 25%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 85% 75%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
+    linear-gradient(45deg, transparent 48%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.01) 51%, transparent 52%),
+    linear-gradient(-45deg, transparent 48%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.01) 51%, transparent 52%);
+  background-size: 
+    800px 800px,
+    800px 800px,
+    100px 100px,
+    100px 100px;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 
+    0 -20px 40px rgba(0, 0, 0, 0.02),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 .features-background {
@@ -1146,64 +1316,66 @@ export default {
 
 .floating-particles .particle {
   position: absolute;
-  background: rgba(0, 0, 0, 0.08);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.05) 70%, transparent 100%);
   border-radius: 50%;
-  animation: particleFloat 8s ease-in-out infinite, particlePulse 4s ease-in-out infinite;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  animation: particleFloat 12s ease-in-out infinite, particlePulse 6s ease-in-out infinite;
+  box-shadow: 
+    0 0 20px rgba(0, 0, 0, 0.05),
+    inset 0 1px 2px rgba(255, 255, 255, 0.3);
   z-index: 1;
 }
 
 .floating-particles .particle-1 {
-  top: 10%;
-  left: 10%;
-  width: 12px;
-  height: 12px;
+  top: 15%;
+  left: 8%;
+  width: 16px;
+  height: 16px;
   animation-delay: 0s;
 }
 
 .floating-particles .particle-2 {
-  top: 20%;
-  right: 15%;
-  width: 18px;
-  height: 18px;
+  top: 25%;
+  right: 12%;
+  width: 22px;
+  height: 22px;
   animation-delay: 2s;
-  animation-duration: 10s;
+  animation-duration: 14s;
 }
 
 .floating-particles .particle-3 {
-  bottom: 30%;
-  left: 20%;
-  width: 8px;
-  height: 8px;
+  bottom: 35%;
+  left: 18%;
+  width: 12px;
+  height: 12px;
   animation-delay: 4s;
-  animation-duration: 12s;
+  animation-duration: 16s;
 }
 
 .floating-particles .particle-4 {
-  top: 60%;
-  right: 30%;
-  width: 15px;
-  height: 15px;
+  top: 65%;
+  right: 25%;
+  width: 18px;
+  height: 18px;
   animation-delay: 1s;
-  animation-duration: 9s;
+  animation-duration: 10s;
 }
 
 .floating-particles .particle-5 {
-  bottom: 10%;
-  right: 10%;
-  width: 10px;
-  height: 10px;
+  bottom: 15%;
+  right: 8%;
+  width: 14px;
+  height: 14px;
   animation-delay: 3s;
-  animation-duration: 11s;
+  animation-duration: 13s;
 }
 
 .floating-particles .particle-6 {
-  top: 40%;
-  left: 5%;
-  width: 14px;
-  height: 14px;
+  top: 45%;
+  left: 3%;
+  width: 20px;
+  height: 20px;
   animation-delay: 5s;
-  animation-duration: 7s;
+  animation-duration: 9s;
 }
 
 .features-pattern {
@@ -1222,26 +1394,28 @@ export default {
 
 @keyframes particleFloat {
   0%, 100% {
-    transform: translateY(0) translateX(0) rotate(0deg);
+    transform: translateY(0) translateX(0) rotate(0deg) scale(1);
   }
   25% {
-    transform: translateY(-30px) translateX(20px) rotate(90deg);
+    transform: translateY(-40px) translateX(30px) rotate(90deg) scale(1.1);
   }
   50% {
-    transform: translateY(0) translateX(40px) rotate(180deg);
+    transform: translateY(-10px) translateX(50px) rotate(180deg) scale(0.9);
   }
   75% {
-    transform: translateY(30px) translateX(20px) rotate(270deg);
+    transform: translateY(30px) translateX(25px) rotate(270deg) scale(1.05);
   }
 }
 
 @keyframes particlePulse {
   0%, 100% {
     opacity: 0.6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     transform: scale(1);
   }
   50% {
     opacity: 1;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     transform: scale(1.2);
   }
 }
@@ -1324,33 +1498,71 @@ export default {
   align-items: center;
 }
 
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  position: relative;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
 .section-badge {
-  display: block;
-  padding: 0.6rem 1.8rem;
-  background: linear-gradient(135deg, #000000, #333333);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #000000 0%, #333333 50%, #000000 100%);
   color: #ffffff;
   border-radius: 50px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  margin: 0 auto 1.8rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin: 0 auto 2.5rem;
   position: relative;
   overflow: hidden;
   width: fit-content;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.15),
+    0 1px 0 rgba(255, 255, 255, 0.2) inset,
+    0 -1px 0 rgba(0, 0, 0, 0.2) inset;
   text-transform: uppercase;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  transform: perspective(1000px) rotateX(0deg);
+  transition: all 0.3s ease;
 }
 
-.section-badge::before {
-  content: '';
+.section-badge:hover {
+  transform: perspective(1000px) rotateX(-2deg) translateY(-2px);
+  box-shadow: 
+    0 15px 40px rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+.badge-icon {
+  font-size: 1.2rem;
+  animation: badgeIconSpin 4s ease-in-out infinite;
+}
+
+.badge-shine {
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
   animation: badgeShine 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes badgeIconSpin {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
 }
 
 @keyframes badgeShine {
@@ -1360,25 +1572,28 @@ export default {
 }
 
 .section-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
   position: relative;
   display: block;
   width: 100%;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 .title-decoration {
   display: block;
-  color: #666666;
-  font-size: 1.8rem;
-  font-weight: 400;
-  margin-bottom: 0.5rem;
+  color: #777777;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(30px);
   animation: titleSlideIn 1s ease-out 0.3s forwards;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .title-highlight {
@@ -1386,58 +1601,128 @@ export default {
   color: #000000;
   position: relative;
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(30px);
   animation: titleSlideIn 1s ease-out 0.5s forwards;
   margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .title-highlight::after {
   content: '';
   position: absolute;
-  bottom: -8px;
-  left: 0;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 4px;
-  background: linear-gradient(90deg, #000000, #666666);
-  animation: underlineExpand 1s ease-out 1s forwards;
+  background: linear-gradient(90deg, transparent, #000000, transparent);
+  animation: underlineExpand 1.2s ease-out 1s forwards;
+  border-radius: 2px;
+}
+
+.title-accent {
+  display: block;
+  color: #555555;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out 0.9s forwards;
+  letter-spacing: 0.05em;
 }
 
 .section-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #666666;
-  margin-bottom: 1.5rem;
-  max-width: 600px;
+  margin-bottom: 2rem;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.5;
+  line-height: 1.6;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s ease-out 0.7s forwards;
+  font-weight: 300;
+  letter-spacing: 0.02em;
 }
 
 .title-decoration-line {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem;
-  margin-top: 1.5rem;
+  gap: 1.2rem;
+  margin-top: 2rem;
 }
 
 .decoration-line {
-  width: 60px;
+  width: 80px;
   height: 2px;
   background: linear-gradient(90deg, transparent, #000000, transparent);
   opacity: 0;
   animation: lineExpand 1s ease-out 1.2s forwards;
+  border-radius: 1px;
 }
 
-.decoration-dot {
-  width: 8px;
-  height: 8px;
-  background: #000000;
-  border-radius: 50%;
+.decoration-diamond {
+  font-size: 1.2rem;
+  color: #000000;
   opacity: 0;
-  animation: dotPop 0.5s ease-out 1.5s forwards;
+  animation: fadeInScale 1s ease-out 1.4s forwards;
+  transform: scale(0) rotate(0deg);
+}
+@keyframes titleSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes underlineExpand {
+  from {
+    width: 0;
+  }
+  to {
+    width: 120px;
+  }
+}
+
+@keyframes lineExpand {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+    width: 80px;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(45deg);
+  }
 }
 
 @keyframes lineExpand {
@@ -1450,101 +1735,95 @@ export default {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.5rem;
-  margin-bottom: 6rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-bottom: 5rem;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
   z-index: 5;
+  padding: 0 2rem;
+  align-items: start;
 }
 
 .feature-card {
-  position: relative;
-  height: 100%;
-  perspective: 1000px;
-  min-height: 450px;
-  display: flex;
-}
-
-.featured-card {
-  transform: scale(1.02);
-  z-index: 3;
-}
-
-.feature-card-inner {
-  position: relative;
-  height: 100%;
-  padding: 2.5rem 1.5rem;
   background: #ffffff;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform-style: preserve-3d;
-  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  /* Fixed height and spacing */
+  min-height: 320px;
+  max-height: 350px;
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.feature-card:hover .feature-card-inner {
-  transform: translateY(-10px) rotateX(3deg);
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
-  border-color: #000000;
+.feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: #d0d0d0;
 }
 
-.featured-card .feature-card-inner {
-  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
-  border-color: #000000;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+.feature-icon {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
 }
 
-.card-number {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  font-size: 1.2rem;
+.feature-card h3 {
+  font-size: 1.4rem;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  color: #000000;
+  margin-bottom: 1.2rem;
+  line-height: 1.3;
+  text-align: center;
+  flex-shrink: 0;
 }
 
-/* Most Popular Badge Removed */
-
-.card-border-animation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 25px;
-  background: linear-gradient(45deg, transparent, rgba(0, 0, 0, 0.1), transparent);
-  opacity: 0;
-  animation: borderAnimation 3s ease-in-out infinite;
+.feature-card p {
+  color: #666666;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes borderAnimation {
-  0%, 100% { opacity: 0; transform: rotate(0deg); }
-  50% { opacity: 1; transform: rotate(180deg); }
+/* Enhanced icon animations */
+@keyframes iconPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
 }
 
-.card-glow {
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.05) 0%, transparent 70%);
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  pointer-events: none;
+.feature-icon {
+  animation: iconPulse 4s ease-in-out infinite;
 }
 
-.feature-card:hover .card-glow {
-  opacity: 1;
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .feature-icon-wrapper {
@@ -1623,6 +1902,10 @@ export default {
   background: radial-gradient(circle, rgba(40, 40, 40, 0.2) 0%, transparent 70%);
 }
 
+.strategic-innovation-bg {
+  background: radial-gradient(circle, rgba(35, 35, 35, 0.2) 0%, transparent 70%);
+}
+
 .feature-content {
   text-align: center;
   position: relative;
@@ -1679,15 +1962,17 @@ export default {
 }
 
 .benefit-icon {
-  margin-right: 1rem;
-  color: #000000;
-  font-weight: bold;
-  font-size: 1.1rem;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 24px;
+  text-align: center;
 }
 
 .feature-benefits li:nth-child(1) { animation-delay: 0.1s; }
 .feature-benefits li:nth-child(2) { animation-delay: 0.2s; }
 .feature-benefits li:nth-child(3) { animation-delay: 0.3s; }
+.feature-benefits li:nth-child(4) { animation-delay: 0.4s; }
 
 .feature-stats-mini {
   margin-top: 1rem;
@@ -1884,8 +2169,8 @@ export default {
   transform: translateX(5px);
 }
 
-/* Services Overview Section */
-.services-overview {
+/* Services Section */
+.services-section {
   padding: 7rem 2rem 6rem;
   background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 50%, #ffffff 100%);
   background-image: 
@@ -2248,6 +2533,12 @@ export default {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .features-grid {
+    gap: 1.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-content {
     grid-template-columns: 1fr;
@@ -2264,7 +2555,19 @@ export default {
   }
   
   .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    width: 100%;
     justify-content: center;
+  }
+  
+  .btn {
+    width: 100%;
+    min-width: auto;
+    padding: 1.2rem 2rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
   
   .legal-icon {
@@ -2302,11 +2605,33 @@ export default {
   
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 2.5rem;
+    max-width: 600px;
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
   }
   
   .feature-card {
-    min-height: 400px;
+    padding: 2rem 1.5rem;
+    min-height: 280px;
+    max-height: 320px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card p {
+    font-size: 0.95rem;
   }
   
   .services-content {
@@ -2331,14 +2656,6 @@ export default {
   
   .highlight-item {
     padding: 1.2rem 1rem;
-  }
-  
-  .feature-card {
-    min-height: 380px;
-  }
-  
-  .service-card {
-    min-height: 230px;
   }
   
   .cta-buttons {

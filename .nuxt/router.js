@@ -5,11 +5,14 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _0f6827b3 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _51cae57e = () => interopDefault(import('../pages/appointments.vue' /* webpackChunkName: "pages/appointments" */))
 const _4f0c4974 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _03b7e128 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
+const _e872540a = () => interopDefault(import('../pages/services-new.vue' /* webpackChunkName: "pages/services-new" */))
+const _68d981fc = () => interopDefault(import('../pages/services-old.vue' /* webpackChunkName: "pages/services-old" */))
 const _0b3736b2 = () => interopDefault(import('../pages/team.vue' /* webpackChunkName: "pages/team" */))
 const _2f200278 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _44774e04 = () => interopDefault(import('../pages/consultation/_id.vue' /* webpackChunkName: "pages/consultation/_id" */))
+const _421e3b0c = () => interopDefault(import('../pages/profile/_id.vue' /* webpackChunkName: "pages/profile/_id" */))
 
 const emptyFn = () => {}
 
@@ -27,10 +30,6 @@ export const routerOptions = {
     component: _0f6827b3,
     name: "about"
   }, {
-    path: "/appointments",
-    component: _51cae57e,
-    name: "appointments"
-  }, {
     path: "/contact",
     component: _4f0c4974,
     name: "contact"
@@ -39,6 +38,14 @@ export const routerOptions = {
     component: _03b7e128,
     name: "services"
   }, {
+    path: "/services-new",
+    component: _e872540a,
+    name: "services-new"
+  }, {
+    path: "/services-old",
+    component: _68d981fc,
+    name: "services-old"
+  }, {
     path: "/team",
     component: _0b3736b2,
     name: "team"
@@ -46,6 +53,14 @@ export const routerOptions = {
     path: "/",
     component: _2f200278,
     name: "index"
+  }, {
+    path: "/consultation/:id?",
+    component: _44774e04,
+    name: "consultation-id"
+  }, {
+    path: "/profile/:id?",
+    component: _421e3b0c,
+    name: "profile-id"
   }],
 
   fallback: false

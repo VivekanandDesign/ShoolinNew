@@ -1,17 +1,66 @@
+/* Force all elements to use only black and white colors */
+* {
+    color: black !important;
+}
+
+/* Exception for footer - allow white text */
+.main-footer,
+.main-footer *:not(.google-icon):not(.footer-cta-btn) {
+    color: white !important;
+}
+
+/* Keep button and icon colors intact */
+.main-footer .google-icon {
+    background: white !important;
+    color: black !important;
+}
+
+.main-footer .footer-cta-btn {
+    background-color: white !important;
+    color: black !important;
+}
+
+*:not(input):not(textarea):not(button) {
+    background-color: transparent !important;
+}
+
+/* Remove any browser default colors */
+a, a:visited, a:hover, a:active {
+    color: black !important;
+}
+
+button, input[type="button"], input[type="submit"] {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid black !important;
+}
+
+input, textarea, select {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+/* Remove any colored backgrounds or borders */
+div, section, article, aside, header, footer, nav, main {
+    background-color: transparent !important;
+    border-color: black !important;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    color: black;
-    background-color: white;
+    color: black !important;
+    background-color: white !important;
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: black;
+    color: black !important;
 }
 
 a {
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 
@@ -25,28 +74,29 @@ a:hover {
     padding: 20px;
 }
 
-.header {
-    background-color: white;
+.header,
+.main-header {
+    background-color: white !important;
     padding: 10px 0;
     border-bottom: 1px solid black;
 }
 
 .footer {
-    background-color: white;
+    background-color: white !important;
     padding: 10px 0;
     border-top: 1px solid black;
     text-align: center;
 }
 
 .appointment-form, .contact-form {
-    background-color: white;
+    background-color: white !important;
     border: 1px solid black;
     padding: 20px;
     border-radius: 5px;
 }
 
 .review {
-    background-color: white;
+    background-color: white !important;
     border: 1px solid black;
     padding: 10px;
     margin: 10px 0;
