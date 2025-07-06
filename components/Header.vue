@@ -157,7 +157,7 @@ export default {
 
 /* Desktop: Hide mobile menu toggle by default */
 .mobile-menu-toggle {
-  display: none;
+  display: none !important;
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
@@ -166,6 +166,10 @@ export default {
   background: transparent !important;
   border: none !important;
   outline: none !important;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-menu-toggle span {
@@ -174,7 +178,8 @@ export default {
   background-color: #000000 !important;
   transition: all 0.3s ease;
   transform-origin: center;
-  display: block;
+  display: block !important;
+  border-radius: 2px;
 }
 
 /* Hamburger animation */
@@ -208,6 +213,11 @@ export default {
     flex-wrap: nowrap;
   }
   
+  /* Hide the desktop navigation */
+  .main-nav ul {
+    display: none;
+  }
+  
   .main-nav {
     position: fixed !important;
     top: 0;
@@ -227,7 +237,8 @@ export default {
     right: 0 !important;
   }
   
-  .main-nav ul {
+  .main-nav.mobile-nav-open ul {
+    display: flex !important;
     flex-direction: column;
     gap: 0;
     margin: 0;
@@ -268,6 +279,18 @@ export default {
     background: none !important;
     border: none !important;
     cursor: pointer;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0.5rem;
+    z-index: 1002;
+  }
+  
+  .mobile-menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #000000 !important;
+    display: block !important;
+    transition: all 0.3s ease;
   }
   
   .logo h1 {
