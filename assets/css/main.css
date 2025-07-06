@@ -20,8 +20,19 @@
     color: black !important;
 }
 
-*:not(input):not(textarea):not(button) {
+/* Allow specific elements to maintain their backgrounds for functionality */
+*:not(input):not(textarea):not(button):not(.main-nav):not(.mobile-menu-overlay):not(.main-header) {
     background-color: transparent !important;
+}
+
+/* Ensure mobile nav and overlay can have proper backgrounds */
+.main-nav,
+.mobile-menu-overlay {
+    background-color: white !important;
+}
+
+.mobile-menu-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Remove any browser default colors */

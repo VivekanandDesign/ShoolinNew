@@ -99,3 +99,6 @@ dist/
 
 # Service worker
 sw.*
+
+# Local Netlify folder
+.netlify
