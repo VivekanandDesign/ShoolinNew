@@ -2,83 +2,103 @@
   <div class="home">
     <!-- Hero Section -->
     <section class="hero-section">
-      <!-- Animated Background -->
+      <!-- Modern Background -->
       <div class="hero-background">
-        <div class="floating-shapes">
-          <div class="shape shape-1"></div>
-          <div class="shape shape-2"></div>
-          <div class="shape shape-3"></div>
-          <div class="shape shape-4"></div>
-          <div class="shape shape-5"></div>
-          <div class="shape shape-6"></div>
+        <div class="geometric-pattern"></div>
+        <div class="gradient-orbs">
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="orb orb-3"></div>
         </div>
-        <div class="grid-overlay"></div>
       </div>
       
       <div class="hero-content">
         <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-text">Professional Legal Excellence</span>
+            <div class="badge-shine"></div>
+          </div>
           <h1 class="hero-title">
-            <span class="title-line" data-text="Professional Legal">Professional Legal</span>
-            <span class="title-line" data-text="Consultancy Services">Consultancy Services</span>
+            <span class="title-line title-primary">Your Trusted</span>
+            <span class="title-line title-secondary">Legal Partner</span>
+            <span class="title-line title-accent">Since 2020</span>
           </h1>
           <p class="hero-subtitle">
-            Expert legal guidance with integrity, professionalism, and comprehensive solutions 
-            for your business and personal legal needs.
+            Delivering comprehensive legal solutions with unwavering commitment to excellence, 
+            integrity, and client success. Your legal challenges, our expertise.
           </p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Cases Resolved</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">98%</div>
+              <div class="stat-label">Success Rate</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Support</div>
+            </div>
+          </div>
           <div class="hero-buttons">
             <nuxt-link 
-              to="/services" 
-              class="btn btn-primary btn-cta"
-              role="button"
-              aria-label="View our comprehensive legal services"
-              title="Explore our legal services"
-            >
-              <span>Our Services</span>
-              <div class="btn-animation"></div>
-              <span class="btn-arrow">→</span>
-              <span class="sr-only">Navigate to services page</span>
-            </nuxt-link>
-            <nuxt-link 
               to="/contact" 
-              class="btn btn-secondary btn-cta"
+              class="btn btn-primary btn-cta"
               role="button"
               aria-label="Schedule a legal consultation"
               title="Get professional legal consultation"
             >
-              <span>Get Consultation</span>
-              <div class="btn-animation"></div>
-              <span class="btn-arrow">→</span>
-              <span class="sr-only">Navigate to contact page</span>
+              <span class="btn-text">Start Consultation</span>
+              <div class="btn-ripple"></div>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </nuxt-link>
+            <nuxt-link 
+              to="/services" 
+              class="btn btn-secondary btn-cta"
+              role="button"
+              aria-label="View our comprehensive legal services"
+              title="Explore our legal services"
+            >
+              <span class="btn-text">Our Services</span>
+              <div class="btn-ripple"></div>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
             </nuxt-link>
           </div>
         </div>
         <div class="hero-visual">
-          <div class="legal-icon-container">
-            <div class="legal-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M12 1L2 5.75V7H22V5.75L12 1ZM10 3.25C10 3.11 10.09 3 10.24 3H13.76C13.91 3 14 3.11 14 3.25V4H10V3.25ZM5 9V18H3V20H21V18H19V9H17V18H15V9H13V18H11V9H9V18H7V9H5ZM2 21V23H22V21H2Z"/>
-              </svg>
+          <div class="legal-emblem">
+            <div class="emblem-outer">
+              <div class="emblem-inner">
+                <svg class="justice-icon" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+                <div class="emblem-rings">
+                  <div class="ring ring-1"></div>
+                  <div class="ring ring-2"></div>
+                </div>
+              </div>
             </div>
-            <div class="icon-rings">
-              <div class="ring ring-1"></div>
-              <div class="ring ring-2"></div>
-              <div class="ring ring-3"></div>
-            </div>
+            <div class="emblem-glow"></div>
           </div>
-          <div class="floating-elements">
-            <div class="element element-1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="white">
-                <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19ZM7 10H12V12H7V10ZM7 13H17V15H7V13ZM7 16H17V18H7V16ZM7 6H17V8H7V6Z"/>
+          <div class="legal-elements">
+            <div class="element element-document">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
               </svg>
             </div>
-            <div class="element element-2">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M15.5 1H7.5C6.12 1 5 2.12 5 3.5V20.5C5 21.88 6.12 23 7.5 23H15.5C16.88 23 18 21.88 18 20.5V3.5C18 2.12 16.88 1 15.5 1ZM11.5 14C9.84 14 8.5 12.66 8.5 11C8.5 9.34 9.84 8 11.5 8C13.16 8 14.5 9.34 14.5 11C14.5 12.66 13.16 14 11.5 14ZM7 16.5C7 15.12 8.12 14 9.5 14H13.5C14.88 14 16 15.12 16 16.5V17H7V16.5Z"/>
+            <div class="element element-scales">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,2A1,1 0 0,1 13,3V4.27L15.45,4.68C15.8,4.73 16,5.06 16,5.41V6H17A1,1 0 0,1 18,7V8A1,1 0 0,1 17,9H16V11.5L22,14V16A1,1 0 0,1 21,17H15A1,1 0 0,1 14,16V14.5L12,13.72V20H13A1,1 0 0,1 14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21A1,1 0 0,1 11,20H12V13.72L10,14.5V16A1,1 0 0,1 9,17H3A1,1 0 0,1 2,16V14L8,11.5V9H7A1,1 0 0,1 6,8V7A1,1 0 0,1 7,6H8V5.41C8,5.06 8.2,4.73 8.55,4.68L11,4.27V3A1,1 0 0,1 12,2M10,6V8.5L4,11H8L10,10.03V6M14,6V10.03L16,11H20L14,8.5V6Z"/>
               </svg>
             </div>
-            <div class="element element-3">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z"/>
+            <div class="element element-shield">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11C19,15.5 16.18,19.65 12,20.72C7.82,19.65 5,15.5 5,11V6.3L12,3.18M12,6A1,1 0 0,0 11,7A1,1 0 0,0 12,8A1,1 0 0,0 13,7A1,1 0 0,0 12,6M12,9C10.34,9 9,10.34 9,12C9,13.66 10.34,15 12,15C13.66,15 15,13.66 15,12C15,10.34 13.66,9 12,9Z"/>
               </svg>
             </div>
           </div>
@@ -447,21 +467,18 @@ export default {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Hero Section */
+/* Hero Section - Creative Redesign */
 .hero-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 2rem;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 50%, #ffffff 100%);
-  background-image: 
-    radial-gradient(circle at 20% 30%, rgba(220, 220, 220, 0.3) 0%, transparent 30%),
-    radial-gradient(circle at 80% 70%, rgba(220, 220, 220, 0.3) 0%, transparent 30%);
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%);
 }
 
-/* Animated Background */
+/* Modern Background */
 .hero-background {
   position: absolute;
   top: 0;
@@ -471,175 +488,193 @@ export default {
   z-index: 1;
 }
 
-.floating-shapes {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.shape {
-  position: absolute;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  animation: float 6s ease-in-out infinite;
-}
-
-.shape-1 {
-  width: 80px;
-  height: 80px;
-  top: 10%;
-  left: 10%;
-  animation-delay: 0s;
-  transform: rotate(45deg);
-}
-
-.shape-2 {
-  width: 60px;
-  height: 60px;
-  top: 20%;
-  right: 15%;
-  animation-delay: 1s;
-  border-radius: 50%;
-}
-
-.shape-3 {
-  width: 100px;
-  height: 100px;
-  bottom: 20%;
-  left: 5%;
-  animation-delay: 2s;
-  transform: rotate(30deg);
-}
-
-.shape-4 {
-  width: 40px;
-  height: 40px;
-  top: 60%;
-  right: 25%;
-  animation-delay: 3s;
-  border-radius: 50%;
-}
-
-.shape-5 {
-  width: 120px;
-  height: 60px;
-  top: 40%;
-  left: 80%;
-  animation-delay: 4s;
-  border-radius: 30px;
-}
-
-.shape-6 {
-  width: 70px;
-  height: 70px;
-  bottom: 10%;
-  right: 10%;
-  animation-delay: 5s;
-  transform: rotate(60deg);
-}
-
-.grid-overlay {
+.geometric-pattern {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
-  background-size: 50px 50px;
-  animation: gridMove 20s linear infinite;
+    linear-gradient(30deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 100px 100px;
+  animation: patternShift 15s ease-in-out infinite;
 }
 
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  33% {
-    transform: translateY(-20px) rotate(120deg);
-  }
-  66% {
-    transform: translateY(10px) rotate(240deg);
-  }
+.gradient-orbs {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes gridMove {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(50px, 50px);
-  }
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  animation: orbFloat 8s ease-in-out infinite;
+}
+
+.orb-1 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, rgba(59, 130, 246, 0.3), rgba(147, 51, 234, 0.3));
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.orb-2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, rgba(16, 185, 129, 0.3), rgba(59, 130, 246, 0.3));
+  top: 60%;
+  right: 20%;
+  animation-delay: 2s;
+}
+
+.orb-3 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(45deg, rgba(251, 146, 60, 0.3), rgba(239, 68, 68, 0.3));
+  bottom: 20%;
+  left: 60%;
+  animation-delay: 4s;
 }
 
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 4rem;
   align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-text {
+  margin-bottom: 2rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.badge-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   position: relative;
   z-index: 2;
 }
 
-.hero-text {
-  animation: slideInLeft 1s ease-out;
+.badge-shine {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: shine 3s ease-in-out infinite;
 }
 
 .hero-title {
-  font-size: 3rem;
-  font-weight: 600;
-  color: #000000;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
-  perspective: 1000px;
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .title-line {
   display: block;
   position: relative;
-  animation: titleReveal 1.5s ease-out forwards;
-  opacity: 0;
-  transform: translateY(50px);
 }
 
-.title-line:nth-child(1) {
-  animation-delay: 0.2s;
+.title-primary {
+  color: #1f2937;
+  animation: slideInLeft 1s ease-out 0.2s both;
 }
 
-.title-line:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.title-line::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.8), transparent);
-  background-size: 200% 100%;
+.title-secondary {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
-  color: transparent;
-  animation: shimmer 2s infinite;
+  animation: slideInLeft 1s ease-out 0.4s both;
 }
 
-@keyframes titleReveal {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.title-accent {
+  font-size: 0.6em;
+  color: #6b7280;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  animation: slideInLeft 1s ease-out 0.6s both;
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #6b7280;
+  line-height: 1.8;
+  max-width: 90%;
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease-out 0.8s both;
 }
+
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease-out 1s both;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 1.2s both;
+}
+
+/* Legacy styles cleanup - Old styles removed for new creative design */
+
+/* Features Section */
 
 @keyframes slideInLeft {
   from {
@@ -704,12 +739,185 @@ export default {
   }
 }
 
+/* Hero Visual - Creative Design */
 .hero-visual {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   animation: slideInRight 1s ease-out 0.4s both;
+}
+
+.legal-emblem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.emblem-outer {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffffff, #f8fafc);
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  animation: emblemFloat 6s ease-in-out infinite;
+}
+
+.emblem-inner {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.justice-icon {
+  width: 60px;
+  height: 60px;
+  color: white;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.emblem-rings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring {
+  position: absolute;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  border-top-color: rgba(59, 130, 246, 0.3);
+  border-right-color: rgba(139, 92, 246, 0.3);
+  animation: ringRotate 12s linear infinite;
+}
+
+.ring-1 {
+  width: 240px;
+  height: 240px;
+  top: -120px;
+  left: -120px;
+  animation-delay: 0s;
+}
+
+.ring-2 {
+  width: 280px;
+  height: 280px;
+  top: -140px;
+  left: -140px;
+  animation-delay: 2s;
+  animation-direction: reverse;
+}
+
+.emblem-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent 70%);
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+.legal-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.element {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ffffff, #f1f5f9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: elementFloat 8s ease-in-out infinite;
+}
+
+.element svg {
+  width: 24px;
+  height: 24px;
+  color: #3b82f6;
+}
+
+.element-document {
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+}
+
+.element-scales {
+  top: 70%;
+  right: 10%;
+  animation-delay: 2s;
+}
+
+.element-shield {
+  bottom: 10%;
+  left: 10%;
+  animation-delay: 4s;
+}
+
+/* New Animations */
+@keyframes patternShift {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 20px);
+  }
+}
+
+@keyframes orbFloat {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.1);
+  }
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideInRight {
@@ -723,201 +931,177 @@ export default {
   }
 }
 
-.legal-icon-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-}
-
-.legal-icon {
-  font-size: 8rem;
-  z-index: 3;
-  position: relative;
-  width: 150px;
-  height: 150px;
-  animation: iconFloat 4s ease-in-out infinite, iconRotate 20s linear infinite;
-  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.1));
-  transform-style: preserve-3d;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@keyframes iconFloat {
-  0%, 100% {
-    transform: translateY(0px) rotateX(0deg);
-  }
-  50% {
-    transform: translateY(-20px) rotateX(10deg);
-  }
-}
-
-@keyframes iconRotate {
+@keyframes fadeInUp {
   from {
-    transform: rotateY(0deg);
+    opacity: 0;
+    transform: translateY(30px);
   }
   to {
-    transform: rotateY(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.icon-rings {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.ring {
-  position: absolute;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  border-top-color: rgba(0, 0, 0, 0.3);
-  animation: ringRotate 8s linear infinite;
-}
-
-.ring-1 {
-  width: 200px;
-  height: 200px;
-  top: -100px;
-  left: -100px;
-  animation-delay: 0s;
-}
-
-.ring-2 {
-  width: 250px;
-  height: 250px;
-  top: -125px;
-  left: -125px;
-  animation-delay: 1s;
-  animation-direction: reverse;
-}
-
-.ring-3 {
-  width: 300px;
-  height: 300px;
-  top: -150px;
-  left: -150px;
-  animation-delay: 2s;
+@keyframes emblemFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
 }
 
 @keyframes ringRotate {
   from {
-    transform: rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
-.floating-elements {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.element {
-  position: absolute;
-  font-size: 2rem;
-  width: 40px;
-  height: 40px;
-  animation: elementFloat 6s ease-in-out infinite;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1));
-  color: #000;
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.element-1 {
-  top: 10%;
-  right: 20%;
-  animation-delay: 0s;
-}
-
-.element-2 {
-  bottom: 20%;
-  right: 30%;
-  animation-delay: 2s;
-}
-
-.element-3 {
-  top: 60%;
-  right: 10%;
-  animation-delay: 4s;
+@keyframes glowPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
 }
 
 @keyframes elementFloat {
   0%, 100% {
-    transform: translateY(0px) rotate(0deg) scale(1);
+    transform: translateY(0px) rotate(0deg);
   }
   33% {
-    transform: translateY(-15px) rotate(5deg) scale(1.1);
+    transform: translateY(-15px) rotate(5deg);
   }
   66% {
-    transform: translateY(5px) rotate(-5deg) scale(0.95);
+    transform: translateY(5px) rotate(-3deg);
   }
 }
 
-/* Enhanced Button Styles for Maximum Accessibility */
+/* Modern Button Styles for Creative Hero */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 1.25rem 2.75rem;
-  font-weight: 700;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 12px;
+  border-radius: 50px;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 3px solid #000000;
-  font-size: 1.125rem;
+  font-size: 1rem;
   position: relative;
   overflow: hidden;
-  color: inherit;
-  background-color: transparent;
-  min-height: 52px;
-  min-width: 200px;
-  text-align: center;
+  border: none;
   cursor: pointer;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
-  outline-offset: 4px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  /* Enhanced contrast and spacing */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* Improved text rendering */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Better touch targets */
-  touch-action: manipulation;
-  /* Prevent text selection */
-  user-select: none;
-  -webkit-user-select: none;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  min-height: 56px;
+  min-width: 200px;
+  text-transform: none;
+  font-family: inherit;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Enhanced focus styles for superior accessibility */
+.btn-text {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.btn-ripple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn:hover .btn-ripple::before {
+  width: 300px;
+  height: 300px;
+}
+
+.btn:hover .btn-text {
+  transform: translateX(-2px);
+}
+
+.btn:hover .btn-icon {
+  transform: translateX(4px);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  color: white;
+  box-shadow: 
+    0 4px 20px rgba(59, 130, 246, 0.4),
+    0 8px 32px rgba(139, 92, 246, 0.3);
+}
+
+.btn-primary:hover {
+  box-shadow: 
+    0 8px 30px rgba(59, 130, 246, 0.5),
+    0 12px 40px rgba(139, 92, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  color: #374151;
+  border: 2px solid rgba(59, 130, 246, 0.2);
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 
+    0 8px 30px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 1);
+  transform: translateY(-2px);
+}
+
+/* Enhanced focus styles */
 .btn:focus,
 .btn:focus-visible {
-  outline: 4px solid #0066ff;
-  outline-offset: 4px;
-  box-shadow: 
-    0 0 0 8px rgba(0, 102, 255, 0.25),
-    0 8px 24px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px);
-  z-index: 10;
-}
-
-/* Enhanced keyboard navigation */
-.btn:focus:not(:focus-visible) {
-  outline: none;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  outline: 3px solid #3b82f6;
+  outline-offset: 3px;
 }
 
 /* High contrast mode support */
