@@ -681,6 +681,7 @@ export default {
   gap: 1.5rem;
   flex-wrap: wrap;
   animation: fadeInUp 1s ease-out 1.2s both;
+  justify-content: center;
 }
 
 /* Legacy styles cleanup - Old styles removed for new creative design */
@@ -723,7 +724,7 @@ export default {
   flex-wrap: wrap;
   animation: fadeInUp 1s ease-out 0.8s both;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 /* Ensure buttons are accessible on mobile */
