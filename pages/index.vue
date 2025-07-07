@@ -27,20 +27,7 @@
             Delivering comprehensive legal solutions with unwavering commitment to excellence, 
             integrity, and client success. Your legal challenges, our expertise.
           </p>
-          <div class="hero-stats">
-            <div class="stat-item">
-              <div class="stat-number">500+</div>
-              <div class="stat-label">Cases Resolved</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-number">98%</div>
-              <div class="stat-label">Success Rate</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-number">24/7</div>
-              <div class="stat-label">Support</div>
-            </div>
-          </div>
+
           <div class="hero-buttons">
             <nuxt-link 
               to="/contact" 
@@ -475,7 +462,7 @@ export default {
   padding: 2rem;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
 }
 
 /* Modern Background */
@@ -495,8 +482,8 @@ export default {
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(30deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    linear-gradient(30deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 100px 100px;
   animation: patternShift 15s ease-in-out infinite;
 }
@@ -561,8 +548,8 @@ export default {
   display: inline-flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   padding: 0.75rem 1.5rem;
   margin-bottom: 2rem;
@@ -572,7 +559,7 @@ export default {
 .badge-text {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #374151;
+  color: #f8fafc;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
@@ -605,7 +592,7 @@ export default {
 }
 
 .title-primary {
-  color: #1f2937;
+  color: #f8fafc;
   animation: slideInLeft 1s ease-out 0.2s both;
 }
 
@@ -619,7 +606,7 @@ export default {
 
 .title-accent {
   font-size: 0.6em;
-  color: #6b7280;
+  color: #cbd5e1;
   font-weight: 400;
   margin-top: 0.5rem;
   animation: slideInLeft 1s ease-out 0.6s both;
@@ -627,43 +614,14 @@ export default {
 
 .hero-subtitle {
   font-size: 1.25rem;
-  color: #6b7280;
+  color: #cbd5e1;
   line-height: 1.8;
   max-width: 90%;
   margin-bottom: 3rem;
   animation: fadeInUp 1s ease-out 0.8s both;
 }
 
-.hero-stats {
-  display: flex;
-  gap: 3rem;
-  margin-bottom: 3rem;
-  animation: fadeInUp 1s ease-out 1s both;
-}
 
-.stat-item {
-  text-align: center;
-}
-
-.stat-number {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1f2937;
-  line-height: 1;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.stat-label {
-  font-size: 0.875rem;
-  color: #6b7280;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 0.5rem;
-}
 
 .hero-buttons {
   display: flex;
@@ -689,7 +647,7 @@ export default {
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #333333;
+  color: #cbd5e1;
   line-height: 1.6;
   margin-bottom: 2.5rem;
   animation: fadeInUp 1s ease-out 0.6s both;
@@ -988,21 +946,21 @@ export default {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.75rem;
-  padding: 1rem 2rem;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: 50px;
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-size: 1rem;
+  font-size: 0.875rem;
   position: relative;
   overflow: hidden;
   border: none;
   cursor: pointer;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  min-height: 56px;
-  min-width: 200px;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  min-height: 44px;
+  min-width: 150px;
   text-transform: none;
   font-family: inherit;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -1015,8 +973,8 @@ export default {
 }
 
 .btn-icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   position: relative;
   z-index: 2;
   transition: transform 0.3s ease;
