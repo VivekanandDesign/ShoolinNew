@@ -21,8 +21,28 @@
           <h1 class="hero-title">
             <span class="title-line title-primary">Your Trusted</span>
             <span class="title-line title-secondary">Legal Partner</span>
-            <span class="title-line title-accent">Since 2020</span>
+            <span class="title-line title-accent">Excellence Since 2020</span>
           </h1>
+          <div class="hero-features">
+            <div class="feature-item">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,2A1,1 0 0,1 13,3V4.27L15.45,4.68C15.8,4.73 16,5.06 16,5.41V6H17A1,1 0 0,1 18,7V8A1,1 0 0,1 17,9H16V11.5L22,14V16A1,1 0 0,1 21,17H15A1,1 0 0,1 14,16V14.5L12,13.72V20H13A1,1 0 0,1 14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21A1,1 0 0,1 11,20H12V13.72L10,14.5V16A1,1 0 0,1 9,17H3A1,1 0 0,1 2,16V14L8,11.5V9H7A1,1 0 0,1 6,8V7A1,1 0 0,1 7,6H8V5.41C8,5.06 8.2,4.73 8.55,4.68L11,4.27V3A1,1 0 0,1 12,2Z"/>
+              </svg>
+              <span>Expert Legal Counsel</span>
+            </div>
+            <div class="feature-item">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11C19,15.5 16.18,19.65 12,20.72C7.82,19.65 5,15.5 5,11V6.3L12,3.18Z"/>
+              </svg>
+              <span>Trusted Protection</span>
+            </div>
+            <div class="feature-item">
+              <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+              <span>Complete Documentation</span>
+            </div>
+          </div>
           <p class="hero-subtitle">
             Delivering comprehensive legal solutions with unwavering commitment to excellence, 
             integrity, and client success. Your legal challenges, our expertise.
@@ -73,19 +93,34 @@
             <div class="emblem-glow"></div>
           </div>
           <div class="legal-elements">
-            <div class="element element-document">
+            <div class="floating-icon justice-icon">
               <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
               </svg>
             </div>
-            <div class="element element-scales">
+            <div class="floating-icon gavel-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.05 12.05L7.07 9.03L8.84 10.8L5.82 13.82L4.05 12.05M16.96 7.14L18.73 5.37L19.79 6.43L18.02 8.2L16.96 7.14M12.76 2.29L16.13 5.66L10.6 11.19L7.23 7.82L12.76 2.29M14.5 13.5H16.5V19.5C16.5 20.61 15.61 21.5 14.5 21.5H9.5C8.39 21.5 7.5 20.61 7.5 19.5V13.5H9.5V15.5H14.5V13.5Z"/>
+              </svg>
+            </div>
+            <div class="floating-icon scales-icon">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12,2A1,1 0 0,1 13,3V4.27L15.45,4.68C15.8,4.73 16,5.06 16,5.41V6H17A1,1 0 0,1 18,7V8A1,1 0 0,1 17,9H16V11.5L22,14V16A1,1 0 0,1 21,17H15A1,1 0 0,1 14,16V14.5L12,13.72V20H13A1,1 0 0,1 14,21V22A1,1 0 0,1 13,23H11A1,1 0 0,1 10,22V21A1,1 0 0,1 11,20H12V13.72L10,14.5V16A1,1 0 0,1 9,17H3A1,1 0 0,1 2,16V14L8,11.5V9H7A1,1 0 0,1 6,8V7A1,1 0 0,1 7,6H8V5.41C8,5.06 8.2,4.73 8.55,4.68L11,4.27V3A1,1 0 0,1 12,2M10,6V8.5L4,11H8L10,10.03V6M14,6V10.03L16,11H20L14,8.5V6Z"/>
               </svg>
             </div>
-            <div class="element element-shield">
+            <div class="floating-icon shield-icon">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11C19,15.5 16.18,19.65 12,20.72C7.82,19.65 5,15.5 5,11V6.3L12,3.18M12,6A1,1 0 0,0 11,7A1,1 0 0,0 12,8A1,1 0 0,0 13,7A1,1 0 0,0 12,6M12,9C10.34,9 9,10.34 9,12C9,13.66 10.34,15 12,15C13.66,15 15,13.66 15,12C15,10.34 13.66,9 12,9Z"/>
+              </svg>
+            </div>
+            <div class="floating-icon document-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+              </svg>
+            </div>
+            <div class="floating-icon briefcase-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V19A2,2 0 0,1 20,21H4C2.89,21 2,20.1 2,19V8C2,6.89 2.89,6 4,6H8V4C8,2.89 8.89,2 10,2M14,6V4H10V6H14Z"/>
               </svg>
             </div>
           </div>
@@ -462,7 +497,7 @@ export default {
   padding: 2rem;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  background: #000000;
 }
 
 /* Modern Background */
@@ -577,13 +612,14 @@ export default {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 6vw, 5rem);
-  font-weight: 700;
-  line-height: 1.1;
+  font-size: clamp(3.5rem, 8vw, 6rem);
+  font-weight: 800;
+  line-height: 1.05;
   margin: 0 0 2rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.25rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .title-line {
@@ -592,33 +628,83 @@ export default {
 }
 
 .title-primary {
-  color: #f8fafc;
+  color: #ffffff;
   animation: slideInLeft 1s ease-out 0.2s both;
+  font-weight: 300;
+  font-size: 0.85em;
+  opacity: 0.9;
 }
 
 .title-secondary {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: slideInLeft 1s ease-out 0.4s both;
+  font-weight: 900;
+  font-size: 1.1em;
+  text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .title-accent {
-  font-size: 0.6em;
-  color: #cbd5e1;
+  font-size: 0.5em;
+  color: #94a3b8;
   font-weight: 400;
   margin-top: 0.5rem;
   animation: slideInLeft 1s ease-out 0.6s both;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.hero-features {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
+}
+
+.feature-icon {
+  width: 20px;
+  height: 20px;
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+.feature-item span {
+  font-size: 0.875rem;
+  color: #e2e8f0;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #cbd5e1;
-  line-height: 1.8;
-  max-width: 90%;
+  line-height: 1.7;
+  max-width: 85%;
   margin-bottom: 3rem;
-  animation: fadeInUp 1s ease-out 0.8s both;
+  animation: fadeInUp 1s ease-out 1s both;
+  opacity: 0.9;
 }
 
 
@@ -799,62 +885,107 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
+  opacity: 0.6;
 }
 
-.element {
+.floating-icon {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #ffffff, #f1f5f9);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+  border: 2px solid rgba(59, 130, 246, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  animation: elementFloat 8s ease-in-out infinite;
+  backdrop-filter: blur(10px);
+  animation: creativeFloat 12s ease-in-out infinite;
+  transition: all 0.3s ease;
 }
 
-.element svg {
-  width: 24px;
-  height: 24px;
+.floating-icon:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.floating-icon svg {
+  width: 28px;
+  height: 28px;
   color: #3b82f6;
+  filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.3));
 }
 
-.element-document {
-  top: 10%;
-  left: 20%;
+.justice-icon {
+  top: 15%;
+  left: 25%;
   animation-delay: 0s;
 }
 
-.element-scales {
-  top: 70%;
-  right: 10%;
+.gavel-icon {
+  top: 35%;
+  right: 15%;
   animation-delay: 2s;
 }
 
-.element-shield {
-  bottom: 10%;
-  left: 10%;
+.scales-icon {
+  bottom: 30%;
+  left: 15%;
   animation-delay: 4s;
 }
 
-/* New Animations */
+.shield-icon {
+  top: 60%;
+  right: 30%;
+  animation-delay: 6s;
+}
+
+.document-icon {
+  bottom: 15%;
+  right: 20%;
+  animation-delay: 8s;
+}
+
+.briefcase-icon {
+  top: 10%;
+  right: 50%;
+  animation-delay: 10s;
+}
+
+/* New Creative Animations */
+@keyframes creativeFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg) scale(1);
+  }
+  25% {
+    transform: translateY(-20px) rotate(5deg) scale(1.05);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-3deg) scale(0.95);
+  }
+  75% {
+    transform: translateY(-25px) rotate(7deg) scale(1.02);
+  }
+}
+
 @keyframes patternShift {
   0%, 100% {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(20px, 20px);
+    transform: translate(15px, 15px);
   }
 }
 
 @keyframes orbFloat {
   0%, 100% {
-    transform: translateY(0px) scale(1);
+    transform: translateY(0px) scale(1) rotate(0deg);
   }
-  50% {
-    transform: translateY(-30px) scale(1.1);
+  33% {
+    transform: translateY(-25px) scale(1.05) rotate(120deg);
+  }
+  66% {
+    transform: translateY(15px) scale(0.95) rotate(240deg);
   }
 }
 
@@ -926,18 +1057,6 @@ export default {
   50% {
     opacity: 0.6;
     transform: translate(-50%, -50%) scale(1.1);
-  }
-}
-
-@keyframes elementFloat {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  33% {
-    transform: translateY(-15px) rotate(5deg);
-  }
-  66% {
-    transform: translateY(5px) rotate(-3deg);
   }
 }
 
