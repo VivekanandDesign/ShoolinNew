@@ -368,12 +368,12 @@ export default {
 }
 
 .expertise-item svg {
-  color: #4CAF50;
+  color: #666;
   flex-shrink: 0;
 }
 
 .expertise-item:hover svg {
-  color: #4CAF50;
+  color: #fff;
 }
 
 /* Education */

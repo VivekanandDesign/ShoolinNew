@@ -475,7 +475,7 @@ export default {
 .orb-1 {
   width: 300px;
   height: 300px;
-  background: linear-gradient(45deg, rgba(59, 130, 246, 0.3), rgba(147, 51, 234, 0.3));
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(128, 128, 128, 0.1));
   top: 10%;
   left: 10%;
   animation-delay: 0s;
@@ -484,7 +484,7 @@ export default {
 .orb-2 {
   width: 200px;
   height: 200px;
-  background: linear-gradient(45deg, rgba(16, 185, 129, 0.3), rgba(59, 130, 246, 0.3));
+  background: linear-gradient(45deg, rgba(192, 192, 192, 0.1), rgba(255, 255, 255, 0.1));
   top: 60%;
   right: 20%;
   animation-delay: 2s;
@@ -493,7 +493,7 @@ export default {
 .orb-3 {
   width: 150px;
   height: 150px;
-  background: linear-gradient(45deg, rgba(251, 146, 60, 0.3), rgba(239, 68, 68, 0.3));
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.1), rgba(64, 64, 64, 0.1));
   bottom: 20%;
   left: 60%;
   animation-delay: 4s;
@@ -511,7 +511,7 @@ export default {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: rgba(59, 130, 246, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   animation: particleFloat 8s infinite ease-in-out;
 }
@@ -520,21 +520,21 @@ export default {
   top: 20%;
   left: 10%;
   animation-delay: 0s;
-  background: rgba(59, 130, 246, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .particle-2 {
   top: 40%;
   right: 15%;
   animation-delay: 1s;
-  background: rgba(147, 51, 234, 0.4);
+  background: rgba(192, 192, 192, 0.4);
 }
 
 .particle-3 {
   bottom: 30%;
   left: 20%;
   animation-delay: 2s;
-  background: rgba(16, 185, 129, 0.4);
+  background: rgba(128, 128, 128, 0.4);
 }
 
 /* Floating Shapes */
@@ -554,7 +554,7 @@ export default {
 .shape-circle {
   width: 60px;
   height: 60px;
-  border: 2px solid rgba(59, 130, 246, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   top: 15%;
   left: 15%;
@@ -564,7 +564,7 @@ export default {
 .shape-square {
   width: 40px;
   height: 40px;
-  border: 2px solid rgba(16, 185, 129, 0.3);
+  border: 2px solid rgba(192, 192, 192, 0.3);
   top: 30%;
   right: 10%;
   animation-delay: 4s;
@@ -601,7 +601,7 @@ export default {
 .badge-text {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #f8fafc;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
@@ -643,19 +643,19 @@ export default {
 }
 
 .title-secondary {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899);
+  background: linear-gradient(135deg, #ffffff, #cccccc, #999999);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: slideInLeft 1s ease-out 0.4s both;
   font-weight: 900;
   font-size: 1.1em;
-  text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
 }
 
 .title-accent {
   font-size: 0.5em;
-  color: #94a3b8;
+  color: #ffffff;
   font-weight: 400;
   margin-top: 0.5rem;
   animation: slideInLeft 1s ease-out 0.6s both;
@@ -666,7 +666,7 @@ export default {
 
 .hero-subtitle {
   font-size: 1.1rem;
-  color: #cbd5e1;
+  color: #ffffff;
   line-height: 1.7;
   max-width: 85%;
   margin-bottom: 3rem;
@@ -701,7 +701,7 @@ export default {
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #cbd5e1;
+  color: #ffffff;
   line-height: 1.6;
   margin-bottom: 2.5rem;
   animation: fadeInUp 1s ease-out 0.6s both;
@@ -776,7 +776,7 @@ export default {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
   animation: glowPulse 4s ease-in-out infinite;
 }
 
@@ -979,25 +979,25 @@ export default {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  background: linear-gradient(135deg, #000000, #333333);
   color: white;
   box-shadow: 
-    0 4px 20px rgba(59, 130, 246, 0.4),
-    0 8px 32px rgba(139, 92, 246, 0.3);
+    0 4px 20px rgba(0, 0, 0, 0.4),
+    0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary:hover {
   box-shadow: 
-    0 8px 30px rgba(59, 130, 246, 0.5),
-    0 12px 40px rgba(139, 92, 246, 0.4);
+    0 8px 30px rgba(0, 0, 0, 0.5),
+    0 12px 40px rgba(0, 0, 0, 0.4);
   transform: translateY(-2px);
 }
 
 .btn-secondary {
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(20px);
-  color: #374151;
-  border: 2px solid rgba(59, 130, 246, 0.2);
+  color: #000000;
+  border: 2px solid rgba(0, 0, 0, 0.2);
   box-shadow: 
     0 4px 20px rgba(0, 0, 0, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -1005,7 +1005,7 @@ export default {
 
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(59, 130, 246, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
   box-shadow: 
     0 8px 30px rgba(0, 0, 0, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 1);
@@ -1015,7 +1015,7 @@ export default {
 /* Enhanced focus styles */
 .btn:focus,
 .btn:focus-visible {
-  outline: 3px solid #3b82f6;
+  outline: 3px solid #000000;
   outline-offset: 3px;
 }
 
@@ -1128,9 +1128,9 @@ export default {
 
 /* Enhanced focus state for primary button */
 .btn-primary:focus-visible {
-  outline-color: #66b3ff;
+  outline-color: #ffffff;
   box-shadow: 
-    0 0 0 8px rgba(102, 179, 255, 0.3),
+    0 0 0 8px rgba(255, 255, 255, 0.3),
     0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
@@ -1256,9 +1256,9 @@ export default {
 
 /* Enhanced focus state for secondary button */
 .btn-secondary:focus-visible {
-  outline-color: #66b3ff;
+  outline-color: #000000;
   box-shadow: 
-    0 0 0 8px rgba(102, 179, 255, 0.3),
+    0 0 0 8px rgba(0, 0, 0, 0.3),
     0 12px 28px rgba(0, 0, 0, 0.25);
 }
 
