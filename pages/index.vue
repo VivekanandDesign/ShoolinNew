@@ -1,213 +1,226 @@
 <template>
   <div class="home">
-    <!-- Hero Section -->
+    <!-- Hero Section - Elegant Legal Professional Design -->
     <section class="hero-section">
-      <!-- Modern Background -->
       <div class="hero-background">
-        <div class="geometric-pattern"></div>
-        <div class="animated-particles">
-          <div class="particle particle-1"></div>
-          <div class="particle particle-2"></div>
-          <div class="particle particle-3"></div>
+        <div class="justice-symbol">
+          <div class="scales-of-justice">
+            <div class="scale-beam"></div>
+            <div class="scale-left"></div>
+            <div class="scale-right"></div>
+          </div>
         </div>
-        <div class="floating-shapes">
-          <div class="shape shape-circle"></div>
-          <div class="shape shape-square"></div>
-        </div>
-        <div class="gradient-orbs">
-          <div class="orb orb-1"></div>
-          <div class="orb orb-2"></div>
-          <div class="orb orb-3"></div>
+        <div class="floating-elements">
+          <div class="legal-pattern"></div>
+          <div class="elegant-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+          </div>
         </div>
       </div>
       
-      <div class="hero-content">
-        <div class="hero-text">
+      <div class="container">
+        <div class="hero-content">
           <div class="hero-badge">
-            <span class="badge-text">Professional Legal Excellence</span>
-            <div class="badge-shine"></div>
+            <span class="badge-icon">⚖</span>
+            <span class="badge-text">Excellence in Legal Practice</span>
           </div>
+          
           <h1 class="hero-title">
-            <span class="title-line title-primary">Your Trusted</span>
-            <span class="title-line title-secondary">Legal Partner</span>
-            <span class="title-line title-accent">Excellence Since 2020</span>
+            <span class="title-main">Justice Through</span>
+            <span class="title-emphasis">Expert Advocacy</span>
+            <span class="title-subtitle">Shoolin Legal Consultancy</span>
           </h1>
-          <p class="hero-subtitle">
+          
+          <p class="hero-description">
             Delivering comprehensive legal solutions with unwavering commitment to excellence, 
-            integrity, and client success. Your legal challenges, our expertise.
+            integrity, and client success. Where expertise meets dedication in pursuit of justice.
           </p>
-
-          <div class="hero-buttons">
-            <nuxt-link 
-              to="/contact" 
-              class="btn btn-primary btn-cta"
-              role="button"
-              aria-label="Schedule a legal consultation"
-              title="Get professional legal consultation"
-            >
-              <span class="btn-text">Start Consultation</span>
-              <div class="btn-ripple"></div>
+          
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="500">0</span>
+              <span class="stat-label">Cases Won</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number" data-target="15">0</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">Success Rate</span>
+            </div>
+          </div>
+          
+          <div class="hero-actions">
+            <nuxt-link to="/contact" class="btn btn-primary">
+              <span>Schedule Consultation</span>
+              <span class="btn-icon">→</span>
             </nuxt-link>
-            <nuxt-link 
-              to="/services" 
-              class="btn btn-secondary btn-cta"
-              role="button"
-              aria-label="View our comprehensive legal services"
-              title="Explore our legal services"
-            >
-              <span class="btn-text">Our Services</span>
-              <div class="btn-ripple"></div>
+            <nuxt-link to="/services" class="btn btn-secondary">
+              <span>Explore Services</span>
+              <span class="btn-icon">⚖</span>
             </nuxt-link>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Key Features Section -->
-    <section class="features-section">
-      <!-- Advanced Background Elements -->
-      <div class="features-background">
-        <div class="floating-particles">
-          <div class="particle particle-1"></div>
-          <div class="particle particle-2"></div>
-          <div class="particle particle-3"></div>
-          <div class="particle particle-4"></div>
-          <div class="particle particle-5"></div>
-          <div class="particle particle-6"></div>
-        </div>
-        <div class="features-pattern"></div>
-        <div class="gradient-orbs">
-          <div class="orb orb-1"></div>
-          <div class="orb orb-2"></div>
-          <div class="orb orb-3"></div>
-        </div>
-      </div>
-      
+    <!-- Legal Expertise Section -->
+    <section class="expertise-section">
       <div class="container">
         <div class="section-header">
-          <div class="section-badge">
-            <span class="badge-icon">✦</span>
-            <span class="badge-shine"></span>
-          </div>
-          <h2 class="section-title">
-            <span class="title-decoration">Why Choose</span>
-            <span class="title-highlight">Shoolin Consultancy</span>
-            <span class="title-accent">Legal Excellence Redefined</span>
-          </h2>
+          <h2 class="section-title">Areas of Legal Excellence</h2>
           <p class="section-subtitle">
-            Excellence, integrity, and innovation define our approach to legal consultancy.
-            We deliver exceptional results through expertise, dedication, and cutting-edge solutions.
+            Comprehensive legal services delivered with precision, integrity, and deep understanding of Indian jurisprudence
           </p>
-          <div class="title-decoration-line">
-            <div class="decoration-line"></div>
-            <div class="decoration-diamond">♦</div>
-            <div class="decoration-line"></div>
-          </div>
         </div>
         
-        <div class="features-grid">
-          <!-- Simple Feature Cards -->
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="feature-icon">★</div>
-            <h3>Expert Guidance</h3>
-            <p>Professional legal expertise with proven results across multiple practice areas.</p>
+        <div class="expertise-grid">
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-icon">⚖</div>
+            <h3>Civil Litigation</h3>
+            <p>Expert representation in civil disputes, contract enforcement, and property matters with strategic litigation approach.</p>
+            <div class="card-accent"></div>
           </div>
           
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="feature-icon">♦</div>
-            <h3>Trusted Partnership</h3>
-            <p>Building lasting relationships based on trust, transparency, and exceptional service.</p>
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-icon">🏢</div>
+            <h3>Corporate Law</h3>
+            <p>Comprehensive business legal solutions including compliance, contracts, mergers, and corporate governance.</p>
+            <div class="card-accent"></div>
           </div>
           
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="feature-icon">✓</div>
-            <h3>Full Compliance</h3>
-            <p>Complete adherence to Bar Council regulations and highest ethical standards.</p>
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-icon">👥</div>
+            <h3>Family Law</h3>
+            <p>Sensitive handling of matrimonial disputes, divorce proceedings, child custody, and family settlements.</p>
+            <div class="card-accent"></div>
           </div>
+          
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-icon">🏠</div>
+            <h3>Property Law</h3>
+            <p>Complete property legal services from documentation to dispute resolution and title verification.</p>
+            <div class="card-accent"></div>
+          </div>
+          
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="card-icon">⚔</div>
+            <h3>Criminal Defense</h3>
+            <p>Robust criminal defense representation ensuring protection of rights and fair legal proceedings.</p>
+            <div class="card-accent"></div>
+          </div>
+          
+          <div class="expertise-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="card-icon">📋</div>
+            <h3>Legal Consultation</h3>
+            <p>Strategic legal advice and consultation services for individuals and businesses across various legal matters.</p>
+            <div class="card-accent"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="feature-icon">⚡</div>
-            <h3>Innovation Focus</h3>
-            <p>Leveraging modern strategies and technology for efficient, effective solutions.</p>
-          </div>
-        </div>
-        
-        <div class="features-stats">
-          <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
-            <div class="stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-              </svg>
-            </div>
-            <div class="stat-number">0</div>
-            <div class="stat-label">Cases Handled</div>
-            <div class="stat-progress">
-              <div class="progress-bar"></div>
-            </div>
-          </div>
-          <div class="stat-item" data-aos="zoom-in" data-aos-delay="500">
-            <div class="stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M16 3H8C6.9 3 6 3.9 6 5v3c0 2.55 1.67 4.7 4 5.42v2.08c-1.17.35-2 1.44-2 2.67V19h8v-0.83c0-1.22-.83-2.31-2-2.67v-2.08c2.33-.72 4-2.87 4-5.42V5c0-1.1-.9-2-2-2zm0 8c0 2.21-1.79 4-4 4s-4-1.79-4-4V5h8v6z"/>
-              </svg>
-            </div>
-            <div class="stat-number">0</div>
-            <div class="stat-label">Success Rate</div>
-            <div class="stat-progress">
-              <div class="progress-bar"></div>
-            </div>
-          </div>
-          <div class="stat-item" data-aos="zoom-in" data-aos-delay="600">
-            <div class="stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7v-5z"/>
-              </svg>
-            </div>
-            <div class="stat-number">0</div>
-            <div class="stat-label">Years Experience</div>
-            <div class="stat-progress">
-              <div class="progress-bar"></div>
+    <!-- Why Choose Us Section -->
+    <section class="choose-us-section">
+      <div class="container">
+        <div class="choose-content">
+          <div class="choose-text">
+            <h2 class="section-title">Why Choose Shoolin Consultancy?</h2>
+            <div class="features-list">
+              <div class="feature-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="feature-icon">✓</div>
+                <div class="feature-content">
+                  <h4>Proven Track Record</h4>
+                  <p>15+ years of successful legal practice with hundreds of cases resolved favorably</p>
+                </div>
+              </div>
+              
+              <div class="feature-item" data-aos="fade-right" data-aos-delay="200">
+                <div class="feature-icon">⚖</div>
+                <div class="feature-content">
+                  <h4>Expert Legal Team</h4>
+                  <p>Qualified advocates with specialized expertise in diverse areas of law</p>
+                </div>
+              </div>
+              
+              <div class="feature-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="feature-icon">🛡</div>
+                <div class="feature-content">
+                  <h4>Client-Centric Approach</h4>
+                  <p>Personalized legal strategies tailored to your specific needs and circumstances</p>
+                </div>
+              </div>
+              
+              <div class="feature-item" data-aos="fade-right" data-aos-delay="400">
+                <div class="feature-icon">💼</div>
+                <div class="feature-content">
+                  <h4>Professional Excellence</h4>
+                  <p>Commitment to highest ethical standards and professional integrity</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="stat-item" data-aos="zoom-in" data-aos-delay="700">
-            <div class="stat-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-.5-13H13v6l5.25 3.15-.75 1.23-6-3.6V7z"/>
-              </svg>
-            </div>
-            <div class="stat-number">0</div>
-            <div class="stat-label">Support Available</div>
-            <div class="stat-progress">
-              <div class="progress-bar"></div>
+          
+          <div class="choose-visual" data-aos="fade-left" data-aos-delay="300">
+            <div class="legal-emblem">
+              <div class="emblem-outer">
+                <div class="emblem-inner">
+                  <div class="scales-icon">⚖</div>
+                </div>
+              </div>
+              <div class="emblem-text">Excellence in Practice</div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Client Testimonials</h2>
+          <p class="section-subtitle">What our clients say about our legal services and expertise</p>
+        </div>
         
-        <div class="features-cta">
-          <nuxt-link 
-            to="/about" 
-            class="btn btn-primary btn-cta"
-            role="button"
-            aria-label="Discover our legal excellence and expertise"
-            title="Learn about our professional approach"
-          >
-            <span>Discover Our Excellence</span>
-            <div class="btn-animation"></div>
-            <span class="btn-arrow">→</span>
-            <span class="sr-only">Navigate to about page</span>
-          </nuxt-link>
-          <nuxt-link 
-            to="/contact" 
-            class="btn btn-secondary btn-cta"
-            role="button"
-            aria-label="Start your legal journey with us"
-            title="Begin your consultation process"
-          >
-            <span>Start Your Journey</span>
-            <div class="btn-animation"></div>
-            <span class="btn-arrow">→</span>
-            <span class="sr-only">Navigate to contact page</span>
-          </nuxt-link>
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <div class="quote-icon">"</div>
+              <p>"Exceptional legal expertise and professional service. They handled our corporate legal matters with great precision and care."</p>
+              <div class="testimonial-author">
+                <strong>— Corporate Client</strong>
+                <span>Business Law Case</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <div class="quote-icon">"</div>
+              <p>"Outstanding representation in our property dispute. Professional, knowledgeable, and achieved the best possible outcome."</p>
+              <div class="testimonial-author">
+                <strong>— Property Owner</strong>
+                <span>Property Dispute Resolution</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <div class="quote-icon">"</div>
+              <p>"Compassionate and skilled handling of our family legal matter. They made a difficult process much easier to navigate."</p>
+              <div class="testimonial-author">
+                <strong>— Family Client</strong>
+                <span>Family Law Matter</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -216,32 +229,17 @@
     <section class="cta-section">
       <div class="container">
         <div class="cta-content">
-          <h2>Ready to Get Professional Legal Consultation?</h2>
-          <p>Contact us today to discuss your legal requirements and how we can assist you.</p>
-          <div class="cta-buttons">
-            <nuxt-link 
-              to="/contact" 
-              class="btn btn-primary btn-cta"
-              role="button"
-              aria-label="Contact us for legal consultation"
-              title="Get in touch with our legal experts"
-            >
-              <span>Contact Us</span>
-              <div class="btn-animation"></div>
-              <span class="btn-arrow">→</span>
-              <span class="sr-only">Navigate to contact page</span>
+          <div class="cta-icon">⚖</div>
+          <h2>Ready for Expert Legal Consultation?</h2>
+          <p>Get professional legal advice tailored to your specific needs. Schedule your consultation today.</p>
+          <div class="cta-actions">
+            <nuxt-link to="/contact" class="btn btn-primary btn-large">
+              <span>Schedule Consultation</span>
+              <span class="btn-icon">→</span>
             </nuxt-link>
-            <nuxt-link 
-              to="/about" 
-              class="btn btn-secondary btn-cta"
-              role="button"
-              aria-label="Learn more about our legal services"
-              title="Discover our expertise and approach"
-            >
-              <span>Learn More</span>
-              <div class="btn-animation"></div>
-              <span class="btn-arrow">→</span>
-              <span class="sr-only">Navigate to about page</span>
+            <nuxt-link to="/services" class="btn btn-secondary btn-large">
+              <span>View All Services</span>
+              <span class="btn-icon">⚖</span>
             </nuxt-link>
           </div>
         </div>
@@ -251,167 +249,77 @@
 </template>
 
 <script>
-
 export default {
   data() {
     return {
-      // Stats for counter animation
-      stats: [
-        { id: 'cases', target: 500, current: 0, suffix: '', animationDone: false },
-        { id: 'success', target: 98, current: 0, suffix: '%', animationDone: false },
-        { id: 'experience', target: 15, current: 0, suffix: '', animationDone: false },
-        { id: 'support', target: 0, current: 0, suffix: '', animationDone: false } // Special case for "24/7"
-      ],
-      observer: null,
-      miniStatsObserver: null
+      // Counter animation
+      observers: [],
+      animatedCounters: new Set()
     }
   },
   mounted() {
-    // Set up Intersection Observer to trigger animations when elements are visible
-    this.setupIntersectionObserver()
-    
-    // Set up observer for mini stats
-    this.setupMiniStatsObserver()
-  },
-  methods: {
-    setupIntersectionObserver() {
-      this.observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            if (entry.target.classList.contains('stat-item')) {
-              // Get the index of the stat item
-              const statElements = Array.from(document.querySelectorAll('.stat-item'))
-              const index = statElements.indexOf(entry.target)
-              
-              if (index !== -1 && index < this.stats.length) {
-                if (this.stats[index].id === 'support') {
-                  // Special case for "24/7" support
-                  this.stats[index].animationDone = true
-                  
-                  // Add animated class for progress bar
-                  entry.target.classList.add('animated')
-                  
-                  setTimeout(() => {
-                    const el = entry.target.querySelector('.stat-number')
-                    if (el) el.textContent = '24/7'
-                  }, 500)
-                } else if (!this.stats[index].animationDone) {
-                  this.animateCounter(index, entry.target)
-                }
-              }
-            }
-          }
-        })
-      }, {
-        threshold: 0.2 // Trigger when at least 20% of the element is visible
-      })
-
-      // Observe all stat items
-      document.querySelectorAll('.stat-item').forEach(item => {
-        this.observer.observe(item)
-      })
-    },
-    animateCounter(index, targetElement) {
-      const stat = this.stats[index]
-      const duration = 2000 // Animation duration in ms
-      const steps = 60 // Number of steps to take
-      const stepValue = stat.target / steps
-      const stepTime = duration / steps
-      const numberElement = targetElement.querySelector('.stat-number')
-      
-      // Mark this animation as started to prevent duplicate animations
-      this.stats[index].animationDone = true
-      
-      // Add animated class to trigger progress bar animation
-      targetElement.classList.add('animated')
-      
-      let current = 0
-      const timer = setInterval(() => {
-        current += stepValue
-        if (current >= stat.target) {
-          current = stat.target
-          clearInterval(timer)
-        }
-        
-        // Update the DOM with the new value
-        if (numberElement) {
-          numberElement.textContent = Math.round(current) + stat.suffix
-        }
-        
-        // Update the reactive state
-        this.stats[index].current = Math.round(current)
-      }, stepTime)
-    },
-    setupMiniStatsObserver() {
-      this.miniStatsObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const miniStat = entry.target;
-            const numberElement = miniStat.querySelector('.mini-number');
-            
-            if (numberElement && !miniStat.classList.contains('animated')) {
-              miniStat.classList.add('animated');
-              
-              const countTarget = miniStat.dataset.count;
-              const suffix = miniStat.dataset.suffix || '';
-              
-              // Special case for "24/7" support
-              if (countTarget === "24/7") {
-                setTimeout(() => {
-                  numberElement.textContent = "24/7";
-                }, 500);
-                return;
-              }
-              
-              // Regular numeric counter
-              const target = parseInt(countTarget, 10);
-              if (isNaN(target)) return;
-              
-              const duration = 2000;
-              const steps = 60;
-              const stepValue = target / steps;
-              const stepTime = duration / steps;
-              
-              let current = 0;
-              const timer = setInterval(() => {
-                current += stepValue;
-                if (current >= target) {
-                  current = target;
-                  clearInterval(timer);
-                }
-                
-                numberElement.textContent = Math.round(current) + suffix;
-              }, stepTime);
-            }
-          }
-        });
-      }, {
-        threshold: 0.2
-      });
-      
-      // Observe all mini-stat elements
-      document.querySelectorAll('.mini-stat').forEach(item => {
-        this.miniStatsObserver.observe(item);
-      });
-    }
+    this.initCounterAnimations()
   },
   beforeDestroy() {
-    // Clean up the observers when component is destroyed
-    if (this.observer) {
-      this.observer.disconnect()
-    }
-    if (this.miniStatsObserver) {
-      this.miniStatsObserver.disconnect()
+    // Clean up observers
+    this.observers.forEach(observer => observer.disconnect())
+  },
+  methods: {
+    initCounterAnimations() {
+      const counters = document.querySelectorAll('[data-target]')
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !this.animatedCounters.has(entry.target)) {
+            this.animatedCounters.add(entry.target)
+            this.animateCounter(entry.target)
+          }
+        })
+      }, { threshold: 0.5 })
+
+      counters.forEach(counter => observer.observe(counter))
+      this.observers.push(observer)
+    },
+    
+    animateCounter(element) {
+      const target = parseInt(element.dataset.target)
+      const duration = 2000
+      const start = 0
+      const startTime = performance.now()
+      
+      const updateCounter = (currentTime) => {
+        const elapsed = currentTime - startTime
+        const progress = Math.min(elapsed / duration, 1)
+        
+        // Easing function for smooth animation
+        const easeOut = 1 - Math.pow(1 - progress, 3)
+        const current = Math.round(start + (target - start) * easeOut)
+        
+        element.textContent = current
+        
+        if (progress < 1) {
+          requestAnimationFrame(updateCounter)
+        } else {
+          element.textContent = target
+        }
+      }
+      
+      requestAnimationFrame(updateCounter)
     }
   },
   head() {
     return {
-      title: 'Shoolin Consultancy - Professional Legal Services',
+      title: 'Shoolin Legal Consultancy - Expert Legal Services in India',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Professional legal consultancy services with expert guidance, regulatory compliance, and comprehensive solutions for business and personal legal needs.'
+          content: 'Professional legal consultancy services in India. Expert advocates providing comprehensive legal solutions for civil, criminal, corporate, family, and property law matters.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'legal consultancy, advocate, lawyer, legal services, civil law, criminal law, corporate law, family law, property law, India'
         }
       ]
     }
@@ -420,22 +328,31 @@ export default {
 </script>
 
 <style scoped>
+/* Modern Professional Legal Design */
 .home {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #000000;
 }
 
-/* Hero Section - Creative Redesign */
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section - Elegant Legal Professional Design */
 .hero-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 2rem;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+  color: #ffffff;
   position: relative;
   overflow: hidden;
-  background: #000000;
 }
 
-/* Modern Background */
 .hero-background {
   position: absolute;
   top: 0;
@@ -445,157 +362,127 @@ export default {
   z-index: 1;
 }
 
-.geometric-pattern {
+.justice-symbol {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.scales-of-justice {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation: floatGentle 6s ease-in-out infinite;
+}
+
+.scale-beam {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 4px;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+}
+
+.scale-left,
+.scale-right {
+  position: absolute;
+  top: 60%;
+  width: 30px;
+  height: 20px;
+  border: 2px solid #ffffff;
+  border-top: none;
+  border-radius: 0 0 15px 15px;
+}
+
+.scale-left {
+  left: 20%;
+  animation: scaleBalance 4s ease-in-out infinite;
+}
+
+.scale-right {
+  right: 20%;
+  animation: scaleBalance 4s ease-in-out infinite reverse;
+}
+
+.floating-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.legal-pattern {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(30deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 100px 100px;
-  animation: patternShift 15s ease-in-out infinite;
+    linear-gradient(30deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: patternShift 20s linear infinite;
 }
 
-.gradient-orbs {
+.elegant-particles {
   position: absolute;
   width: 100%;
   height: 100%;
-}
-
-.orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.4;
-  animation: orbFloat 8s ease-in-out infinite;
-}
-
-.orb-1 {
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(128, 128, 128, 0.1));
-  top: 10%;
-  left: 10%;
-  animation-delay: 0s;
-}
-
-.orb-2 {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(45deg, rgba(192, 192, 192, 0.1), rgba(255, 255, 255, 0.1));
-  top: 60%;
-  right: 20%;
-  animation-delay: 2s;
-}
-
-.orb-3 {
-  width: 150px;
-  height: 150px;
-  background: linear-gradient(45deg, rgba(128, 128, 128, 0.1), rgba(64, 64, 64, 0.1));
-  bottom: 20%;
-  left: 60%;
-  animation-delay: 4s;
-}
-
-/* Animated Particles */
-.animated-particles {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
 }
 
 .particle {
   position: absolute;
-  width: 4px;
-  height: 4px;
-  background: rgba(255, 255, 255, 0.6);
+  width: 2px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   animation: particleFloat 8s infinite ease-in-out;
 }
 
-.particle-1 {
+.particle:nth-child(1) {
   top: 20%;
   left: 10%;
   animation-delay: 0s;
-  background: rgba(255, 255, 255, 0.4);
 }
 
-.particle-2 {
-  top: 40%;
-  right: 15%;
-  animation-delay: 1s;
-  background: rgba(192, 192, 192, 0.4);
-}
-
-.particle-3 {
-  bottom: 30%;
-  left: 20%;
+.particle:nth-child(2) {
+  top: 70%;
+  left: 80%;
   animation-delay: 2s;
-  background: rgba(128, 128, 128, 0.4);
 }
 
-/* Floating Shapes */
-.floating-shapes {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.shape {
-  position: absolute;
-  opacity: 0.1;
-  animation: shapeFloat 12s infinite ease-in-out;
-}
-
-.shape-circle {
-  width: 60px;
-  height: 60px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  top: 15%;
-  left: 15%;
-  animation-delay: 0s;
-}
-
-.shape-square {
-  width: 40px;
-  height: 40px;
-  border: 2px solid rgba(192, 192, 192, 0.3);
-  top: 30%;
-  right: 10%;
+.particle:nth-child(3) {
+  top: 40%;
+  left: 60%;
   animation-delay: 4s;
-  transform: rotate(45deg);
 }
 
 .hero-content {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   position: relative;
   z-index: 10;
-}
-
-.hero-text {
-  margin-bottom: 2rem;
+  max-width: 800px;
+  text-align: left;
 }
 
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  position: relative;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
   padding: 0.75rem 1.5rem;
+  border-radius: 50px;
   margin-bottom: 2rem;
-  overflow: hidden;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.badge-icon {
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .badge-text {
@@ -604,89 +491,468 @@ export default {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  position: relative;
-  z-index: 2;
-}
-
-.badge-shine {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-  animation: shine 3s ease-in-out infinite;
 }
 
 .hero-title {
-  font-size: clamp(3.5rem, 8vw, 6rem);
+  font-size: clamp(3rem, 6vw, 5rem);
   font-weight: 800;
-  line-height: 1.05;
-  margin: 0 0 2rem 0;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.title-line {
-  display: block;
-  position: relative;
-}
-
-.title-primary {
+.title-main {
   color: #ffffff;
-  animation: slideInLeft 1s ease-out 0.2s both;
   font-weight: 300;
-  font-size: 0.85em;
-  opacity: 0.9;
+  font-size: 0.6em;
+  animation: slideInLeft 1s ease-out 0.4s both;
 }
 
-.title-secondary {
-  background: linear-gradient(135deg, #ffffff, #cccccc, #999999);
+.title-emphasis {
+  background: linear-gradient(135deg, #ffffff, #cccccc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  animation: slideInLeft 1s ease-out 0.4s both;
   font-weight: 900;
-  font-size: 1.1em;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-}
-
-.title-accent {
-  font-size: 0.5em;
-  color: #ffffff;
-  font-weight: 400;
-  margin-top: 0.5rem;
   animation: slideInLeft 1s ease-out 0.6s both;
+}
+
+.title-subtitle {
+  font-size: 0.4em;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-style: italic;
+  letter-spacing: 3px;
+  margin-top: 0.5rem;
+  animation: slideInLeft 1s ease-out 0.8s both;
 }
 
-.hero-subtitle {
+.hero-description {
   font-size: 1.1rem;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.7;
-  max-width: 85%;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
   animation: fadeInUp 1s ease-out 1s both;
-  opacity: 0.9;
 }
 
+.hero-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease-out 1.2s both;
+}
 
+.stat {
+  text-align: center;
+}
 
-.hero-buttons {
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.stat-suffix {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+.stat-divider {
+  width: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.hero-actions {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
-  animation: fadeInUp 1s ease-out 1.2s both;
+  animation: fadeInUp 1s ease-out 1.4s both;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
+  min-height: 56px;
+  font-family: inherit;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover .btn-icon {
+  transform: translateX(4px);
+}
+
+.btn-primary {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #000000;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background: #ffffff;
+  color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+.btn-large {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  min-height: 64px;
+}
+
+/* Focus styles for accessibility */
+.btn:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.5);
+  outline-offset: 2px;
+}
+
+/* Section Styles */
+.expertise-section,
+.choose-us-section,
+.testimonials-section {
+  padding: 6rem 0;
+  background: #ffffff;
+}
+
+.choose-us-section {
+  background: #f8f9fa;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #666666;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Expertise Grid */
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.expertise-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: #000000;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.expertise-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.expertise-card p {
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.card-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #000000, #666666);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: left;
+}
+
+.expertise-card:hover .card-accent {
+  transform: scaleX(1);
+}
+
+/* Choose Us Section */
+.choose-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.choose-text .section-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.feature-content h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.feature-content p {
+  color: #666666;
+  margin: 0;
+}
+
+.choose-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.legal-emblem {
+  text-align: center;
+}
+
+.emblem-outer {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  position: relative;
+  animation: emblemRotate 20s linear infinite;
+}
+
+.emblem-outer::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.emblem-inner {
+  width: 120px;
+  height: 120px;
+  background: #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-/* Legacy styles cleanup - Old styles removed for new creative design */
+.scales-icon {
+  font-size: 3rem;
+  color: #ffffff;
+  animation: floatGentle 3s ease-in-out infinite;
+}
 
-/* Features Section */
+.emblem-text {
+  font-weight: 600;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+}
+
+/* Testimonials */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-family: serif;
+}
+
+.testimonial-content p {
+  font-size: 1.1rem;
+  color: #333333;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-author strong {
+  display: block;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-author span {
+  color: #666666;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  animation: floatGentle 3s ease-in-out infinite;
+}
+
+.cta-content h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.cta-content p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @keyframes slideInLeft {
   from {
@@ -699,704 +965,203 @@ export default {
   }
 }
 
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #ffffff;
-  line-height: 1.6;
-  margin-bottom: 2.5rem;
-  animation: fadeInUp 1s ease-out 0.6s both;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.hero-buttons {
-  display: flex;
-  gap: 1.2rem;
-  flex-wrap: wrap;
-  animation: fadeInUp 1s ease-out 0.8s both;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Ensure buttons are accessible on mobile */
-@media (max-width: 768px) {
-  .hero-buttons {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
-    width: 100%;
-  }
-  
-  .hero-buttons .btn {
-    width: 100%;
-    min-width: auto;
-    text-align: center;
-  }
-}
-
-/* For reduced motion accessibility */
-@media (prefers-reduced-motion: reduce) {
-  .hero-buttons {
-    animation: none;
-    opacity: 1;
-  }
-}
-
-.ring-1 {
-  width: 240px;
-  height: 240px;
-  top: -120px;
-  left: -120px;
-  animation-delay: 0s;
-}
-
-.ring-2 {
-  width: 280px;
-  height: 280px;
-  top: -140px;
-  left: -140px;
-  animation-delay: 2s;
-  animation-direction: reverse;
-}
-
-.emblem-glow {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%);
-  animation: glowPulse 4s ease-in-out infinite;
-}
-
-/* New Creative Animations */
-@keyframes patternShift {
+@keyframes floatGentle {
   0%, 100% {
-    transform: translate(0, 0);
+    transform: translateY(0px);
   }
   50% {
-    transform: translate(15px, 15px);
-  }
-}
-
-@keyframes orbFloat {
-  0%, 100% {
-    transform: translateY(0px) scale(1) rotate(0deg);
-  }
-  33% {
-    transform: translateY(-25px) scale(1.05) rotate(120deg);
-  }
-  66% {
-    transform: translateY(15px) scale(0.95) rotate(240deg);
+    transform: translateY(-10px);
   }
 }
 
 @keyframes particleFloat {
   0%, 100% {
-    transform: translateY(0px) translateX(0px) scale(1);
-    opacity: 0.6;
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.4;
   }
   25% {
-    transform: translateY(-30px) translateX(15px) scale(1.2);
+    transform: translateY(-20px) translateX(10px);
     opacity: 0.8;
   }
   50% {
-    transform: translateY(-10px) translateX(-10px) scale(0.8);
-    opacity: 0.4;
+    transform: translateY(-5px) translateX(-5px);
+    opacity: 0.6;
   }
   75% {
-    transform: translateY(20px) translateX(20px) scale(1.1);
+    transform: translateY(15px) translateX(15px);
     opacity: 0.7;
   }
 }
 
-@keyframes shapeFloat {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg) scale(1);
-    opacity: 0.1;
+@keyframes patternShift {
+  from {
+    transform: translate(0, 0);
   }
-  25% {
-    transform: translateY(-40px) rotate(90deg) scale(1.1);
-    opacity: 0.2;
+  to {
+    transform: translate(50px, 50px);
+  }
+}
+
+@keyframes scaleBalance {
+  0%, 100% {
+    transform: rotate(0deg);
   }
   50% {
-    transform: translateY(-20px) rotate(180deg) scale(0.9);
-    opacity: 0.05;
-  }
-  75% {
-    transform: translateY(30px) rotate(270deg) scale(1.05);
-    opacity: 0.15;
+    transform: rotate(3deg);
   }
 }
 
-@keyframes shine {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
-  }
-}
-
-@keyframes slideInLeft {
+@keyframes emblemRotate {
   from {
-    opacity: 0;
-    transform: translateX(-50px);
+    transform: rotate(0deg);
   }
   to {
-    opacity: 1;
-    transform: translateX(0);
+    transform: rotate(360deg);
   }
 }
 
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-stats {
+    gap: 1.5rem;
   }
-  to {
-    opacity: 1;
-    transform: translateX(0);
+  
+  .choose-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .choose-text .section-title {
+    text-align: center;
   }
 }
 
-@keyframes emblemFloat {
-  0%, 100% {
-    transform: translateY(0px) rotate(0deg);
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
   }
-  50% {
-    transform: translateY(-20px) rotate(5deg);
+  
+  .hero-section {
+    min-height: 90vh;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .stat-divider {
+    width: 50px;
+    height: 1px;
+  }
+  
+  .hero-actions {
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .cta-actions .btn {
+    width: 100%;
+  }
+  
+  .justice-symbol {
+    display: none;
   }
 }
 
-@keyframes ringRotate {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
+@media (max-width: 480px) {
+  .expertise-section,
+  .choose-us-section,
+  .testimonials-section,
+  .cta-section {
+    padding: 4rem 0;
   }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
+  
+  .section-header {
+    margin-bottom: 3rem;
+  }
+  
+  .expertise-card,
+  .testimonial-card {
+    padding: 2rem;
+  }
+  
+  .hero-stats {
+    margin-bottom: 2rem;
   }
 }
 
-@keyframes glowPulse {
-  0%, 100% {
-    opacity: 0.3;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  50% {
-    opacity: 0.6;
-    transform: translate(-50%, -50%) scale(1.1);
+/* Accessibility Enhancements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
-/* Modern Button Styles for Creative Hero */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 50px;
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-size: 0.875rem;
-  position: relative;
-  overflow: hidden;
-  border: none;
-  cursor: pointer;
-  line-height: 1.4;
-  letter-spacing: 0.3px;
-  min-height: 44px;
-  min-width: 150px;
-  text-transform: none;
-  font-family: inherit;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.btn-text {
-  position: relative;
-  z-index: 2;
-  transition: transform 0.3s ease;
-}
-
-.btn-ripple {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.btn-ripple::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s ease, height 0.6s ease;
-}
-
-.btn:hover .btn-ripple::before {
-  width: 300px;
-  height: 300px;
-}
-
-.btn:hover .btn-text {
-  transform: translateX(0);
-}
-
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn-primary {
-  background: linear-gradient(135deg, #000000, #333333);
-  color: white;
-  box-shadow: 
-    0 4px 20px rgba(0, 0, 0, 0.4),
-    0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-.btn-primary:hover {
-  box-shadow: 
-    0 8px 30px rgba(0, 0, 0, 0.5),
-    0 12px 40px rgba(0, 0, 0, 0.4);
-  transform: translateY(-2px);
-}
-
-.btn-secondary {
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(20px);
-  color: #000000;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 
-    0 4px 20px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.8);
-}
-
-.btn-secondary:hover {
-  background: rgba(255, 255, 255, 1);
-  border-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 
-    0 8px 30px rgba(0, 0, 0, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 1);
-  transform: translateY(-2px);
-}
-
-/* Enhanced focus styles */
-.btn:focus,
-.btn:focus-visible {
-  outline: 3px solid #000000;
-  outline-offset: 3px;
-}
-
-/* High contrast mode support */
 @media (prefers-contrast: high) {
   .btn {
-    border-width: 4px;
+    border-width: 3px;
     font-weight: 800;
-    box-shadow: none;
   }
   
-  .btn:focus {
-    outline-width: 5px;
-    outline-color: ButtonText;
+  .expertise-card,
+  .testimonial-card {
+    border-width: 2px;
   }
 }
 
-/* Large text mode support */
-@media (prefers-reduced-data: reduce) {
-  .btn {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
+/* Focus indicators for keyboard navigation */
+.btn:focus-visible,
+.expertise-card:focus-visible,
+.testimonial-card:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 2px;
 }
 
-.btn span {
-  position: relative;
-  z-index: 2;
-  transition: all 0.3s ease;
-  display: block;
-  font-weight: inherit;
+/* High contrast text for better readability */
+.hero-description,
+.section-subtitle,
+.expertise-card p,
+.feature-content p,
+.testimonial-content p {
+  font-weight: 400;
 }
 
-.btn-animation {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-  transition: left 0.4s ease;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.btn:hover .btn-animation {
-  left: 100%;
-}
-
-/* Remove animation for users who prefer reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .btn-animation {
-    display: none;
-  }
-  
-  .btn:hover .btn-animation {
-    display: none;
-  }
-}
-
-/* Enhanced Primary Button - Maximum Contrast */
-.btn-primary {
-  background-color: #000000;
-  color: #ffffff;
-  border: 3px solid #000000;
-  box-shadow: 
-    0 8px 20px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  /* Perfect contrast ratio: 21:1 (exceeds WCAG AAA) */
-  font-weight: 700;
-  position: relative;
-}
-
-.btn-primary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  border-radius: 9px;
-}
-
-.btn-primary:hover,
-.btn-primary:focus-visible:hover {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  border-color: #1a1a1a;
-  transform: translateY(-3px);
-  box-shadow: 
-    0 12px 28px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.15);
-}
-
-.btn-primary:hover::before {
-  opacity: 1;
-}
-
-.btn-primary:active {
-  background-color: #000000;
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 
-    0 6px 16px rgba(0, 0, 0, 0.3),
-    inset 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Enhanced focus state for primary button */
-.btn-primary:focus-visible {
-  outline-color: #ffffff;
-  box-shadow: 
-    0 0 0 8px rgba(255, 255, 255, 0.3),
-    0 12px 28px rgba(0, 0, 0, 0.35);
-}
-
-/* Enhanced CTA Button Styles */
-.btn-cta {
-  position: relative;
-  overflow: hidden;
-  min-width: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  padding: 1.5rem 3rem;
-  font-size: 1.2rem;
-  font-weight: 800;
-  border-radius: 16px;
-  box-shadow: 
-    0 10px 25px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
-
-.btn-arrow {
-  font-size: 1.3rem;
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-  display: inline-block;
-  font-weight: 900;
-}
-
-.btn:hover .btn-arrow {
-  transform: translateX(6px);
-}
-
-/* Enhanced animations */
-.btn-animation {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, 
-    transparent, 
-    rgba(255, 255, 255, 0.3), 
-    transparent);
-  transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  z-index: 1;
-  pointer-events: none;
-  border-radius: inherit;
-}
-
-.btn:hover .btn-animation {
-  left: 100%;
-}
-
-/* Outline button enhancement */
-.btn-outline {
-  background-color: transparent;
-  color: #000000;
-  box-shadow: 
-    0 6px 18px rgba(0, 0, 0, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-}
-
-.btn-outline:hover {
-  background-color: #000000;
-  color: #ffffff;
-  transform: translateY(-4px);
-  box-shadow: 
-    0 15px 30px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
-
-/* Enhanced Secondary Button - High Contrast */
-.btn-secondary {
-  background-color: #ffffff;
-  color: #000000;
-  border: 3px solid #000000;
-  box-shadow: 
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  /* Perfect contrast ratio: 21:1 (exceeds WCAG AAA) */
-  font-weight: 700;
-  position: relative;
-}
-
-.btn-secondary::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, transparent 30%, rgba(0, 0, 0, 0.05) 50%, transparent 70%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  border-radius: 9px;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus-visible:hover {
-  background-color: #000000;
-  color: #ffffff;
-  border-color: #000000;
-  transform: translateY(-3px);
-  box-shadow: 
-    0 12px 28px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-}
-
-.btn-secondary:hover::before {
-  opacity: 1;
-}
-
-.btn-secondary:active {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 
-    0 6px 16px rgba(0, 0, 0, 0.25),
-    inset 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Enhanced focus state for secondary button */
-.btn-secondary:focus-visible {
-  outline-color: #000000;
-  box-shadow: 
-    0 0 0 8px rgba(0, 0, 0, 0.3),
-    0 12px 28px rgba(0, 0, 0, 0.25);
-}
-
-/* Comprehensive Accessibility & Motion Support */
-@media (prefers-reduced-motion: reduce) {
-  .btn,
-  .btn-primary,
-  .btn-secondary,
-  .btn-outline,
-  .btn-cta {
-    transform: none !important;
-    transition: background-color 0.2s ease, 
-                color 0.2s ease, 
-                border-color 0.2s ease,
-                box-shadow 0.2s ease;
-  }
-  
-  .btn-animation,
-  .btn::before,
-  .btn-primary::before,
-  .btn-secondary::before {
-    display: none !important;
-  }
-  
-  .btn-arrow {
-    transition: none;
-  }
-  
-  .btn:hover .btn-arrow {
-    transform: none;
-  }
-}
-
-/* High contrast mode enhancements */
-@media (prefers-contrast: high) {
-  .btn-primary {
-    background-color: ButtonText;
-    color: ButtonFace;
-    border-color: ButtonText;
-  }
-  
-  .btn-secondary {
-    background-color: ButtonFace;
-    color: ButtonText;
-    border-color: ButtonText;
-  }
-  
-  .btn:focus-visible {
-    outline-color: Highlight;
-  }
-}
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .btn-secondary {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    border-color: #ffffff;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #ffffff;
-    color: #000000;
-  }
-}
-
-/* Touch device optimizations */
+/* Enhanced touch targets for mobile */
 @media (hover: none) and (pointer: coarse) {
   .btn {
-    min-height: 56px;
-    min-width: 240px;
-    padding: 1.5rem 3rem;
-    font-size: 1.2rem;
-  }
-  
-  .btn:hover {
-    transform: none;
+    min-height: 60px;
+    padding: 1.25rem 2.5rem;
   }
 }
-
-/* Screen reader enhancements */
-.btn .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-/* Loading state for buttons */
-.btn.loading {
-  pointer-events: none;
-  opacity: 0.7;
-  position: relative;
-}
-
-.btn.loading::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 2px solid currentColor;
-  border-top-color: transparent;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-/* Features Section */
-/* Features Section */
-.features-section {
-  padding: 6rem 2rem 8rem;
-  margin-top: -4rem;
-  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 25%, #ffffff 50%, #f8f8f8 75%, #ffffff 100%);
-  background-image: 
-    radial-gradient(circle at 15% 25%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 85% 75%, rgba(0, 0, 0, 0.03) 0%, transparent 50%),
-    linear-gradient(45deg, transparent 48%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.01) 51%, transparent 52%),
-    linear-gradient(-45deg, transparent 48%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.01) 51%, transparent 52%);
-  background-size: 
-    800px 800px,
-    800px 800px,
-    100px 100px,
-    100px 100px;
-  position: relative;
-  overflow: hidden;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 
-    0 -20px 40px rgba(0, 0, 0, 0.02),
-    inset 0 1px 0 rgba(255, 255, 255, 0.8);
-}
+</style>
 
 .features-background {
   position: absolute;
